@@ -71,18 +71,21 @@
 import footer from '~/components/footer.vue';
 
 export default {
-  meta: {
+
+  head() {
   // sets document title
+  return {
   title: 'ASCII text to binary zeros and ones converter',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
-  meta: {
-    description: { name: 'description', content: 'Convert ASCII to binary numbers. Visit this free tool and convert text to binary in the least amount of time.' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' }
-  },
+  meta: [
+      { hid: 'description', name: 'description', content: 'Convert ASCII to binary numbers. Visit this free tool and convert text to binary in the least amount of time.' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+  ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/ascii-to-binary/'}
   ]
+  }
   },
   components:{
     'footer-app': footer

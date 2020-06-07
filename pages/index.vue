@@ -101,7 +101,8 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'A binary to text converter and also binary translator. Just enter a binary code and convert it into the equivalent text values with this free binary code translator.' }
+      { hid: 'description', name: 'description', content: 'A binary to text converter and also binary translator. Just enter a binary code and convert it into the equivalent text values with this free binary code translator.' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
   ],
   link: [
  {rel: 'canonical', href: 'https://binarytotext.net/'}

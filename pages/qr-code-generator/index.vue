@@ -42,18 +42,20 @@
 import footer from '~/components/footer.vue';
 
 export default {
-  meta: {
+  head() {
   // sets document title
+  return {
   title: 'QR code generator – Create codes for free from this Generator',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
-  meta: {
-    description: { name: 'description', content: 'Generator QR codes easily with our free online tool – QR Code Generator. Visit the website and generate the QR code in the most pleasant way.' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' }
-  },
+  meta: [
+      { hid: 'description', name: 'description', content: 'Generator QR codes easily with our free online tool – QR Code Generator. Visit the website and generate the QR code in the most pleasant way.' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+  ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/qr-code-generator/'}
   ]
+  }
   },
   components:{
     'footer-app': footer

@@ -66,19 +66,21 @@ import footer from '~/components/footer.vue';
 import { BigNumber } from 'bignumber.js';
 
 export default {
-  meta: {
+  head() {
   // sets document title
+  return {
   title: 'Write 6 decimal number in Binary',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
-  meta: {
-    description: { name: 'description', content: '' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' }
-  },
+  meta: [
+      { hid: 'description', name: 'description', content: '' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+  ],
   link: [
-  {rel: 'canonical', href: 'https://binarytotext.net/write-6-in-binary/'}
-  ]
-  },
+ {rel: 'canonical', href: 'https://binarytotext.net/write-6-in-binary/'}
+]
+}
+},
   components:{
     'footer-app': footer
   },

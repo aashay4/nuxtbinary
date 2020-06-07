@@ -161,18 +161,20 @@ import footer from '~/components/footer.vue';
 import { BigNumber } from 'bignumber.js';
 
 export default {
-  meta: {
+  head() {
   // sets document title
+  return {
   title: 'An online Octal to Decimal Converter',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
-  meta: {
-    description: { name: 'description', content: 'Enter an octal base 8 number in the box and convert it into the decimal number with this octal to decimal translator.' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' }
-  },
+  meta: [
+      { hid: 'description', name: 'description', content: 'Enter an octal base 8 number in the box and convert it into the decimal number with this octal to decimal translator.' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+  ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/octal-to-decimal/'}
   ]
+  }
   },
   components:{
     'footer-app': footer

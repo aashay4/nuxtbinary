@@ -25,19 +25,20 @@ best possible results for the clients.</p><br>
 import footer from '~/components/footer.vue';
 
 export default {
-
-  meta: {
+  head() {
   // sets document title
+  return {
   title: 'About Creator - Get to know about Aashay Trivedi',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
-  meta: {
-    description: { name: 'description', content: 'Aashay Trivedi is the creator of this tool.' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' }
-  },
+  meta: [
+      { hid: 'description', name: 'description', content: 'Aashay Trivedi is the creator of this tool.' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+  ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/about-creator/'}
   ]
+  }
   },
   components:{
     'footer-app': footer

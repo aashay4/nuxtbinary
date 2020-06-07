@@ -83,18 +83,21 @@
 import footer from '~/components/footer.vue';
 import { BigNumber } from 'bignumber.js';
 export default {
-  meta: {
+
+  head() {
   // sets document title
+  return {
   title: 'Binary to Decimal converter | Zeros and ones to numbers translator',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
-  meta: {
-    description: { name: 'description', content: 'Best binary to decimal converter. Enter zeros and ones into the translator and get the decimal number with the help of our converter.' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' }
-  },
+  meta: [
+      { hid: 'description', name: 'description', content: 'Best binary to decimal converter. Enter zeros and ones into the translator and get the decimal number with the help of our converter.' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+  ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/binary-to-decimal/'}
   ]
+  }
   },
   components:{
     'footer-app': footer,

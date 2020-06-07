@@ -67,19 +67,20 @@ import footer from '~/components/footer.vue';
 import { BigNumber } from 'bignumber.js';
 
 export default {
-
-  meta: {
+  head() {
   // sets document title
+  return {
   title: 'Decimal to Octal Converter | Online Number Translator Tool',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
-  meta: {
-    description: { name: 'description', content: 'An online Decimal to octal converter. Convert base 10 to base 8.' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' }
-  },
+  meta: [
+      { hid: 'description', name: 'description', content: 'An online Decimal to octal converter. Convert base 10 to base 8.' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+  ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/decimal-to-octal/'}
   ]
+  }
   },
   components:{
     'footer-app': footer

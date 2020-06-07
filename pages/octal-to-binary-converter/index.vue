@@ -148,19 +148,21 @@ import footer from '~/components/footer.vue';
 
 export default {
 
-  meta: {
+  head() {
   // sets document title
+  return {
   title: 'Octal to binary converter | Best Online Tool for octal Conversion',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
-  meta: {
-    description: { name: 'description', content: 'Convert octal to binary number with the help of this free tool.' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' }
-  },
+  meta: [
+      { hid: 'description', name: 'description', content: 'Convert octal to binary number with the help of this free tool.' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+  ],
   link: [
- {rel: 'canonical', href: 'https://binarytotext.net/octal-to-binary-converter/'}
-]
-},
+  {rel: 'canonical', href: 'https://binarytotext.net/octal-to-binary-converter/'}
+  ]
+  }
+  },
   components:{
     'footer-app': footer
   },

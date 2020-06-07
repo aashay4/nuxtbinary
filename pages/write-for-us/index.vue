@@ -39,19 +39,21 @@
 import footer from '~/components/footer.vue';
 
 export default {
-  meta: {
+  head() {
   // sets document title
+  return {
   title: 'write for us and get exposure on the digital platform',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
-  meta: {
-    description: { name: 'description', content: 'Write for us and get perks from our website.' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' }
-  },
+  meta: [
+      { hid: 'description', name: 'description', content: 'Write for us and get perks from our website.' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+  ],
   link: [
-  {rel: 'canonical', href: 'https://binarytotext.net/write-for-us/'}
-  ]
-  },
+ {rel: 'canonical', href: 'https://binarytotext.net/write-for-us/'}
+]
+}
+},
   components:{
     'footer-app': footer
   },

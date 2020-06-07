@@ -164,18 +164,20 @@ import footer from '~/components/footer.vue';
 import { BigNumber } from 'bignumber.js';
 
 export default {
-  meta: {
+  head() {
   // sets document title
+  return {
   title: 'Binary to Hexadecimal Online Converter | Convert to Hex Number',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
-  meta: {
-    description: { name: 'description', content: 'Binary to Hexadecimal converter. The simplest online translator of hexadecimal to binary conversions. Visit here and get answers!' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' }
-  },
+  meta: [
+      { hid: 'description', name: 'description', content: 'Binary to Hexadecimal converter. The simplest online translator of hexadecimal to binary conversions. Visit here and get answers!' },
+      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+  ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/binary-to-hexadecimal/'}
   ]
+  }
   },
   components:{
     'footer-app': footer
