@@ -67,8 +67,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Read our blog posts find our what is happening in the technology world. Subcribe today for the news latter.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'Read our blog posts find our what is happening in the technology world. Subcribe today for the news latter.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/blog/'}

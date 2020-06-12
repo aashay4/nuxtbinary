@@ -91,8 +91,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Best binary to decimal converter. Enter zeros and ones into the translator and get the decimal number with the help of our converter.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'Best binary to decimal converter. Enter zeros and ones into the translator and get the decimal number with the help of our converter.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/binary-to-decimal/'}

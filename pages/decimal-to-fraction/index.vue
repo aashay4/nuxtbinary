@@ -74,8 +74,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'With Decimal to fraction converter, just enter the numbers with points and convert decimal to fraction in easy steps.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'With Decimal to fraction converter, just enter the numbers with points and convert decimal to fraction in easy steps.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/decimal-to-fraction/'}

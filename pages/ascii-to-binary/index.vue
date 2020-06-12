@@ -79,8 +79,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Convert ASCII to binary numbers. Visit this free tool and convert text to binary in the least amount of time.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'Convert ASCII to binary numbers. Visit this free tool and convert text to binary in the least amount of time.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/ascii-to-binary/'}

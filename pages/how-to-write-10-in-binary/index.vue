@@ -74,8 +74,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: '' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: '' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/how-to-write-10-in-binary/'}

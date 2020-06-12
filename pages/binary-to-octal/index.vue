@@ -71,8 +71,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Looking for a binary to octal converter? Try our online converter totally for free.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'Looking for a binary to octal converter? Try our online converter totally for free.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/binary-to-octal/'}

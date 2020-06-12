@@ -168,8 +168,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Enter an octal base 8 number in the box and convert it into the decimal number with this octal to decimal translator.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'Enter an octal base 8 number in the box and convert it into the decimal number with this octal to decimal translator.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/octal-to-decimal/'}

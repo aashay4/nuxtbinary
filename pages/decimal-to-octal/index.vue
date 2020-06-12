@@ -74,8 +74,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'An online Decimal to octal converter. Convert base 10 to base 8.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'An online Decimal to octal converter. Convert base 10 to base 8.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/decimal-to-octal/'}

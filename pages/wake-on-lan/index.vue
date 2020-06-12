@@ -84,8 +84,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'wake-on-lan widely popular among the techies is the protocol to wake a computer from over the network layer. Some call it wol. Get the detailed information about wake-on-lan here.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'wake-on-lan widely popular among the techies is the protocol to wake a computer from over the network layer. Some call it wol. Get the detailed information about wake-on-lan here.' }
   ],
   link: [
  {rel: 'canonical', href: 'https://binarytotext.net/wake-on-lan/'}

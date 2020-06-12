@@ -96,8 +96,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Local area network is a network which connects various systems which are in the same network. Switches, routers, etnernet cables are the important components.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'Local area network is a network which connects various systems which are in the same network. Switches, routers, etnernet cables are the important components.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/lan-local-area-network/'}

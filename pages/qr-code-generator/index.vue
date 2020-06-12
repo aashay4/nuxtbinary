@@ -49,8 +49,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Generator QR codes easily with our free online tool – QR Code Generator. Visit the website and generate the QR code in the most pleasant way.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'Generator QR codes easily with our free online tool – QR Code Generator. Visit the website and generate the QR code in the most pleasant way.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/qr-code-generator/'}

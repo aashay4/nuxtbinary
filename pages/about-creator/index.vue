@@ -32,8 +32,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Aashay Trivedi is the creator of this tool.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'Aashay Trivedi is the creator of this tool.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/about-creator/'}

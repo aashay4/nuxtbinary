@@ -76,8 +76,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Convert hexadecimal to binary numbers with this tool. Enter a hex number and get the equivalent base 2 number easily with this amazing tool.' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      { hid: 'description', name: 'description', content: 'Convert hexadecimal to binary numbers with this tool. Enter a hex number and get the equivalent base 2 number easily with this amazing tool.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/hexadecimal-to-binary-converter/'}
