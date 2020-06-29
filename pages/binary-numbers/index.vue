@@ -154,7 +154,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Get to know the detailed explanation about binary numbers. And also use our tool to convert different decimals into the binary numbers easily.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/binary-numbers/'}

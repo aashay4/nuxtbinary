@@ -69,11 +69,11 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'How to Write 3 in binary?',
+  title: 'How to Write 3 in binary? | Find answer for 3 and other numbers',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Answer for the number 3 in binary is: 11. Use this tool, convert 3 and many other numbers into the equivalent zeros and ones form. Visit this number converter and find answers now.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/3-in-binary/'}

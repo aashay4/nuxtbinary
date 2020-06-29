@@ -69,11 +69,11 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'How to Write 2 in binary',
+  title: 'How to Write 2 in binary | Convert 2 in zeros and ones',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Looking for a tool that helps you to convert 2 in binary numbers? The answer is: 10. Try our tool and get to know different numbers in the binary values. Visit here and find more.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/2-in-binary/'}

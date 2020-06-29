@@ -69,11 +69,11 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Write 6 decimal number in Binary',
+  title: '[Answered] Write 6 decimal number in Binary',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'The answer of 6 in binary is: 110. Visit here and get to know about more numbers conversions from our website totally for free. Visit now and explore more.' }
   ],
   link: [
  {rel: 'canonical', href: 'https://binarytotext.net/write-6-in-binary/'}

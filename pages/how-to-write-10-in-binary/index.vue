@@ -70,11 +70,11 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'How to Write 10 in binary',
+  title: '[solved] How to Write 10 in binary zeros and ones',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'The value of 10 in binary is: 1010. Use our tools and explore more decimal numbers values in the binary values.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/how-to-write-10-in-binary/'}

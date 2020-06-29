@@ -69,11 +69,11 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Convert 22 in Binary',
+  title: 'Answered: The value of 22 in Binary/ Find out the answer',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Find out the answer of the number 22 in binary. Use out tool and convert any number in binary easily. The correct answer of 22: 10110. Find the answer for other decimal digits as well.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/22inbinary/'}
