@@ -4,6 +4,11 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  buildModules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-140511151-1'
+    }]
+  ],
   head: {
     title: process.env.npm_package_name || '',
     meta: [
