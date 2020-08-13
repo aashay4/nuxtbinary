@@ -1,9 +1,25 @@
 <template>
   <div>
     <div class="w3-main" style="margin-left:250px">
+      <Adsense
+      class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6829148792481216"
+      data-ad-slot="1665700659"
+      data-ad-format="auto"
+      data-full-width-responsive="true">
+      </Adsense>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
-          <h1 class="w3-text-teal">Decimal to Binary</h1>
+          <h1 class="w3-text-teal">Decimal to Binary Converter</h1>
+          <Adsense
+        class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-6829148792481216"
+        data-ad-slot="1416243045"
+        data-ad-format="auto"
+        data-full-width-responsive="true">
+        </Adsense><br><br>
           <p>To use this decimal to binary tool, enter a decimal number up to 19 characters and click on the conversion button. For example, enter a decimal number "44" into the text box and click on the button, you will get the binary number "101100". If you want to convert a binary number into the decimal then enter zeros and ones into the box and click on specific converter button. With this decimal to binary tool you will also be able to get the correct conversion for oct and hex numbers.</p>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="dectobin(); dectohex(); dectooct();" style="width: 49%">Decimal to Binary</button>

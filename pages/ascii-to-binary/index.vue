@@ -1,9 +1,25 @@
 <template>
   <div>
     <div class="w3-main" style="margin-left:250px">
+      <Adsense
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-6829148792481216"
+    data-ad-slot="1665700659"
+    data-ad-format="auto"
+    data-full-width-responsive="true">
+</Adsense>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
-          <h1 class="w3-text-teal">ASCII to Binary</h1>
+      <h1 class="w3-text-teal">ASCII to Binary Converter</h1>
+      <Adsense
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-6829148792481216"
+    data-ad-slot="1416243045"
+    data-ad-format="auto"
+    data-full-width-responsive="true">
+    </Adsense><br><br>
           <p>Enter an ASCII value or a text value into the text box and convert it into the equivalent binary number. For example, enter "Binary" in the text box or any other special character like ";" and get the text to binary conversion with our tool.</p>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="texttobinary()" style="width: 49%">ASCII to Binary</button>
