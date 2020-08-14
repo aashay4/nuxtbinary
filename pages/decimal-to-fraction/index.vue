@@ -1,9 +1,25 @@
 <template>
   <div>
     <div class="w3-main" style="margin-left:250px">
+      <Adsense
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-6829148792481216"
+    data-ad-slot="1665700659"
+    data-ad-format="auto"
+    data-full-width-responsive="true">
+</Adsense>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal to Fraction Calculator</h1>
+          <Adsense
+        class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-6829148792481216"
+        data-ad-slot="1416243045"
+        data-ad-format="auto"
+        data-full-width-responsive="true">
+        </Adsense><br><br>
           <p>Easily convert decimal to fraction with this free tool. Just enter numbers and convert it into the fraction quickly.</p>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="dectofra()" style="width: 49%">Decimal to Fraction</button>

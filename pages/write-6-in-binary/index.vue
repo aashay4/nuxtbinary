@@ -1,6 +1,14 @@
 <template>
   <div>
     <div class="w3-main" style="margin-left:250px"><br><br>
+      <Adsense
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-6829148792481216"
+    data-ad-slot="1665700659"
+    data-ad-format="auto"
+    data-full-width-responsive="true">
+</Adsense>
     <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Write 6 in Binary</h1>

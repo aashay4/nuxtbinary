@@ -1,6 +1,14 @@
 <template lang="html">
   <div>
     <div class="w3-main" style="margin-left:250px">
+      <Adsense
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-6829148792481216"
+    data-ad-slot="1665700659"
+    data-ad-format="auto"
+    data-full-width-responsive="true">
+</Adsense>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">LAN(Local Area Network) - Concept, Definition, Commands</h1>
@@ -12,6 +20,14 @@
           <br><br>
           <b>Useful LAN Commands:</b>
           <br><br>
+          <Adsense
+        class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-6829148792481216"
+        data-ad-slot="1416243045"
+        data-ad-format="auto"
+        data-full-width-responsive="true">
+        </Adsense><br><br>
             <b>Ping</b><br>
             By typing the ping in the command line interface, you will be able to see the bunch of commands options that can be helpful. Some of them are -t, -a, -n, -f and so on.
           <br>

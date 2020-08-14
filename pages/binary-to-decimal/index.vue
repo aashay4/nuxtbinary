@@ -1,9 +1,25 @@
 <template>
   <div>
     <div class="w3-main" style="margin-left:250px">
+      <Adsense
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-6829148792481216"
+    data-ad-slot="1665700659"
+    data-ad-format="auto"
+    data-full-width-responsive="true">
+</Adsense>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
-          <h1 class="w3-text-teal">Binary to Decimal</h1>
+          <h1 class="w3-text-teal">Convert Binary to Decimal</h1>
+          <Adsense
+        class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-6829148792481216"
+        data-ad-slot="1416243045"
+        data-ad-format="auto"
+        data-full-width-responsive="true">
+        </Adsense><br><br>
           <p>You can convert binary to decimal with the help of this tool. Enter zeros and ones into the text box and get decimal digits as an output. For example, enter 101100 binary number into text area and get "101100" answer in the other box. Same way, your inserted values will be updated into the real-time converter and you will get correct answers for the base 8 and base 16 conversions as well. Just enter any value and get started using our tool.</p>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="bintodec(); bintooct(); bintohex();" style="width: 49%">Binary to Decimal</button>
@@ -14,7 +30,15 @@
             <h3><b>{{ text_value }} to base-16</b></h3>
             <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll"><b>Conversion:</b> {{ anshex }}</p>
         </div><br>
-        <div class="w3-third w3-container">
+        <Adsense
+      class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6829148792481216"
+      data-ad-slot="1416243045"
+      data-ad-format="auto"
+      data-full-width-responsive="true">
+      </Adsense><br>
+      <div class="w3-third w3-container">
           <h3 style="background-color: silver;">Other Useful Tools</h3>
           <ul>
             <router-link to="/">
