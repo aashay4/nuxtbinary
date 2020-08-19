@@ -20,13 +20,21 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>Easily convert decimal to fraction with this free tool. Just enter numbers and convert it into the fraction quickly.</p>
+          <p>Easily convert decimal to fraction with this free tool. Just enter numbers and convert it into the fraction quickly.</p><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="dectofra()" style="width: 49%">Decimal to Fraction</button>
           <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
           <div class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">
-            <p><p v-if="this.yyy != '0'">Conversion:{{yyy}}</p> {{ ans }}/{{ans1}}<p> |<p> {{aaa}}/{{ans1}}</p>
-          </div>
+              <table>
+                <tr>
+                    <td>{{yyy}}</td>
+                  <td>{{ ans }}</td>
+                </tr>
+                <tr>
+                  <td class="w3-border-top">{{ans1}}</td>
+                </tr>
+              </table>
+                </div>
             </div><br>
         <div class="w3-third w3-container">
           <h3 style="background-color: silver;">Other Useful Tools</h3>
@@ -86,7 +94,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Convert Decimal to Fraction Easily With this tool',
+  title: 'Convert Decimal to Fraction Easily - B2t Converter',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
