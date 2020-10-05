@@ -20,15 +20,17 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>You can convert binary to decimal with the help of this tool. Enter zeros and ones into the text box and get decimal digits as an output. For example, enter 101100 binary number into text area and get "101100" answer in the other box. Same way, your inserted values will be updated into the real-time converter and you will get correct answers for the base 8 and base 16 conversions as well. Just enter any value and get started using our tool.</p>
+          <p>You can convert binary to decimal with the help of this tool. Enter zeros and ones into the text box and get decimal digits as an output. For example, enter 101100 binary number into text area and get "101100" answer in the other box. Same way, your inserted values will be updated into the real-time converter and you will get correct answers for the base 8 and base 16 conversions as well. Just enter any value and get started using our tool.</p><br>
+          <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 623px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button v-on:click="bintodec(); bintooct(); bintohex();" style="width: 49%">Binary to Decimal</button>
-          <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="bintodec(); bintooct(); bintohex();" style="width: 49%">Binary to Decimal</button>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
             <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll"><b>Conversion:</b> {{ ans }}</p>
             <h3><b>{{ text_value }} to base-8</b></h3>
             <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll"><b>Conversion:</b> {{ ansoct }}</p>
             <h3><b>{{ text_value }} to base-16</b></h3>
             <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll"><b>Conversion:</b> {{ anshex }}</p>
+          </div>
         </div><br>
         <Adsense
       class="adsbygoogle"
@@ -84,20 +86,107 @@
       </div>
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
-            <b>Binary to Decimal Conversion</b>
+            <h2 class="w3-text-teal">Binary to Decimal Conversion</h2>
             <p>If you want to convert binary to decimal, the decimal number is nothing but the sum of the given binary digits, (Xn) times the power of 2.<p><br>
               <p>
               decimal number = x0×20 + x1×21 + x2×22 + ...
             </p>
             <p>
               So, it is the conversion formula, you can also use our tool. Just enter a binary number like "10001010111000" and the answer you get will be "10001010111000".
-            </p>
+            </p><br>
+            <h2 class="w3-text-teal">Binary to Decimal Conversion Table</h2>
+            <table style="width:25%">
+    <tr>
+      <th>Binary</th>
+      <th>Decimal</th>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1000</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1001</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1010</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>1011</td>
+      <td>11</td>
+    </tr>
+     <tr>
+      <td>1100</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1101</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>1110</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1111</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>10000</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>10001</td>
+      <td>17</td>
+    </tr>
+     <tr>
+      <td>10010</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>10011</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>10100</td>
+      <td>20</td>
+    </tr>
+  </table><br>
         </div>
-        <div class="w3-third w3-container">
-          <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-          <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-        </div>
-      </div>
+          </div>
       <footer-app></footer-app>
   </div>
 </div>
@@ -166,5 +255,8 @@ export default {
    border: 5px solid gray;
    padding: 10%;
    margin-left: 30%;
+}
+table, th, td {
+  border: 1px solid black;
 }
 </style>

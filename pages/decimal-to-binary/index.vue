@@ -21,14 +21,16 @@
         data-full-width-responsive="true">
         </Adsense><br><br>
           <p>To use this decimal to binary tool, enter a decimal number up to 19 characters and click on the conversion button. For example, enter a decimal number "44" into the text box and click on the button, you will get the binary number "101100".</p><br>
+          <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 623px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button v-on:click="dectobin(); dectohex(); dectooct();" style="width: 49%">Decimal to Binary</button>
-          <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="dectobin(); dectohex(); dectooct();" style="width: 49%">Decimal to Binary</button>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
             <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ ans }}</p>
             <h3><b>{{ text_value }} to base-8</b></h3>
             <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ ansoct }}</p>
             <h3><b>{{ text_value }} to base-16</b></h3>
             <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ anshex }}</p>
+          </div>
         </div><br>
         <div class="w3-third w3-container">
           <h3 style="background-color: silver;">Other Useful Tools</h3>
@@ -84,9 +86,101 @@
         </div>
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
-          <h2 class="w3-text-teal">Conversion of 12 to Binary</h2>
+          <h2 class="w3-text-teal">Conversion of 12 to Binary for Example</h2>
             <p>Converting 12 number to binary is pretty simple. Firstly, divide 12 by 2 and the remainder would be 0 and quotient for 12 will be 6. Again dividing 6 by two will give 0 remainder and 3 quotients. Now, dividing 3 by 2 will give the remainder of 1 and quotient of 1. That's it! The decimal to binary conversion of number 12 will be 1100.</p><br>
-        </div>
+         <br>
+        <h2 class="w3-text-teal">Decimal to Binary Table of Conversion</h2>
+        <table style="width:25%">
+<tr>
+  <th>Decimal</th>
+  <th>Binary</th>
+</tr>
+<tr>
+  <td>0</td>
+  <td>0</td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>10</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>11</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>100</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>101</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>110</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>111</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>1000</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td>1001</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td>1010</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td>1011</td>
+</tr>
+ <tr>
+  <td>12</td>
+  <td>1100</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td>1101</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td>1110</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td>1111</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td>10000</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td>10001</td>
+</tr>
+ <tr>
+  <td>18</td>
+  <td>10010</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td>10011</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td>10100</td>
+</tr>
+</table><br>
+</div>
         </div>
         <footer-app></footer-app>
   </div>
@@ -158,5 +252,8 @@ export default {
    padding: 10%;
    margin-left: 30%;
 
+}
+table, th, td {
+  border: 1px solid black;
 }
 </style>
