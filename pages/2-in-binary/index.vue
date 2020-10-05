@@ -31,15 +31,15 @@
         <div class="w3-third w3-container">
           <h3 style="background-color: silver;">Other Useful Tools</h3>
           <ul>
-            <router-link to="/ascii-to-binary">
+            <router-link to="/ascii-to-binary/">
             <li>ASCII to Binary</li>
           </router-link>
-          <router-link to="/decimal-to-binary">
+          <router-link to="/decimal-to-binary/">
             <li>
               Decimal to Binary
             </li>
           </router-link>
-          <router-link to="/hexadecimal-to-binary-converter">
+          <router-link to="/hexadecimal-to-binary-converter/">
             <li>
               Hexadecimal to Binary Translator
             </li>
