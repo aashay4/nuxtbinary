@@ -104,8 +104,8 @@ If you want to convert text to binary, then enter any text into the text box and
       </div>
       <div class="w3-row w3-padding-64" style="text-align: justify;">
         <div class="w3-twothird w3-container">
-          <h3 class="w3-text-teal">Convert 01000001 01000001 binary code to Text</h3>
-          <p>The binary to text code conversion of 01000001 01000001 is AA. As mentioned above, take the first eight characters of the given number. So, the first eight characters of this number are 01000001. The binary to text conversion of this number is "A". Once you have converted this number, convert another number. The second set for conversion would be 01000001. Again, this is the same number and conversion would be "A". So, the final binary to text conversion of "01000001 01000001" would be "AA".</p>
+          <h3 class="w3-text-teal">Convert 01000001 01001110 binary code to Text</h3>
+          <p>The binary to text code conversion of 01000001 01001110 is AN. As mentioned above, take the first eight characters of the given number. So, the first eight characters of this number are 01000001. The binary to text conversion of this number is "A". Once you have converted this number, convert another number. The second set for conversion would be 01001110. Again, this is the same number and conversion would be "N". So, the final binary to text conversion of "01000001 01001110" would be "AN".</p>
         </div>
       </div>
       <footer-app></footer-app>

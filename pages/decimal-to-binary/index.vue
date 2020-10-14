@@ -20,7 +20,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>To use this decimal to binary tool, enter a decimal number up to 19 characters and click on the conversion button. For example, enter a decimal number "44" into the text box and click on the button, you will get the binary number "101100".</p><br>
+          <p>To use this decimal to binary tool, enter a decimal number up to 19 characters and click on the conversion button. For example, enter a decimal number "<b style="color: blue">24</b>" into the text box and click on the button, you will get the binary number "11000".</p><br>
           <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 623px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="dectobin(); dectohex(); dectooct();" style="width: 49%">Decimal to Binary</button>
@@ -81,7 +81,7 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h2 class="w3-text-teal">The Decimal to Binary Converter Structure</h2>
-            <p>If you want to convert decimal to binary number then follow these steps. Firstly, divide the given number by 2. After you are dividing it by 2, get the float for the next iteration. Note the reminder for the binary digit. For example, if you enter the number "4422" in the textbox and you will get this answer: 1000101000110.</p><br>
+            <p>If you want to convert decimal to binary number then follow these steps. Firstly, divide the given number by 2. After you are dividing it by 2, get the float for the next iteration. Note the reminder for the binary digit. For example, if you enter the number "46" in the textbox and you will get this answer: 101110.</p><br>
         </div>
         </div>
       <div class="w3-row" style="text-align: justify;">
