@@ -66,7 +66,7 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h2 class="w3-text-teal">Decimal Numbers</h2>
-          <p>The Decimal numbers are nothing but zero and set of other counting numbers. In the number system, all the digits are placed to the left and right of the decimal point. All the decimal points let us know where the place of a specific number is.</p>
+          <p>The Decimal numbers are nothing but zero and set of other counting numbers. In the number system, all the digits are placed to the left and right of the decimal point. All the decimal points let us know where the place of a specific number is. Most of the decimal devices require to convert decimal to binary first to process any kind of incoming request and respond to the request. So, the decimal numbering system is as important as the binary numbering system for the students. Use this simple tool to understand the technical conversion of different numbers.</p>
         </div>
       </div>
       <div class="w3-row" style="text-align: justify;">
