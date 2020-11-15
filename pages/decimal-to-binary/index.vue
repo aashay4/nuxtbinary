@@ -82,6 +82,7 @@
          <br>
         <h2 class="w3-text-teal">Decimal to Binary Table of Conversion</h2>
         <table style="width:25%">
+          <tbody>
 <tr>
   <th>Decimal</th>
   <th>Binary</th>
@@ -170,6 +171,7 @@
   <td>20</td>
   <td>10100</td>
 </tr>
+</tbody>
 </table><br>
 </div>
         </div>
