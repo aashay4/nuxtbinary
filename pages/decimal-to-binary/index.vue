@@ -21,16 +21,7 @@
         data-full-width-responsive="true">
         </Adsense><br><br>
           <p>To use this decimal to binary tool, enter a decimal number up to 19 characters and click on the conversion button. For example, enter a decimal number "<b style="color: blue">24</b>" into the text box and click on the button, you will get the binary number "11000".</p><br>
-          <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 623px;"><br>
-          <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="dectobin(); dectohex(); dectooct();" style="width: 49%">Decimal to Binary</button>
-          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
-            <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ ans }}</p>
-            <h3><b>{{ text_value }} to base-8</b></h3>
-            <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ ansoct }}</p>
-            <h3><b>{{ text_value }} to base-16</b></h3>
-            <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ anshex }}</p>
-          </div>
+          <dectobinary />
         </div><br>
         <div class="w3-third w3-container">
           <h3 style="background-color: silver;">Other Useful Tools</h3>
@@ -188,8 +179,8 @@
 </template>
 
 <script>
+import dectobinary from '~/components/dectobinary.vue';
 import footer from '~/components/footer.vue';
-import { BigNumber } from 'bignumber.js';
 
 export default {
 
@@ -208,7 +199,8 @@ export default {
   }
   },
   components:{
-    'footer-app': footer
+    'footer-app': footer,
+    'dectobinary': dectobinary
   },
   data () {
     return {
@@ -219,32 +211,12 @@ export default {
     }
   },
   methods: {
-    dectobin() {
-      var x = new BigNumber(this.text_value, 10)
-    var dectobin = x.toString(2);
-    this.ans = dectobin;
-            },
-      dectohex() {
-            var xzc = new BigNumber(this.text_value, 10)
-            var dectohexo = xzc.toString(16).toUpperCase ();
-            this.anshex = dectohexo;
-                    },
-                    dectooct() {
-                    var xmm = new BigNumber(this.text_value, 10)
-                    var dectoocto = xmm.toString(8);
-                    this.ansoct = dectoocto;
-                            },
-   reset() {
-     this.ans = '',
-     this.text_value= null,
-     this.anshex= '',
-     this.ansoct= ''
-   },
+
   }
 }
 </script>
 
-<style scoped>
+<style>
 #box {
   background-color: lightgrey;
    width: 300px;
