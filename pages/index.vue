@@ -20,7 +20,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>To use the binary to text tool, enter a binary number into the box, click on the button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the button, you will get the text string “Convert”.
+          <p>To use the binary to text tool, enter a binary number into the box, click on the binary translator button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the binary to text button, you will get the text string “Convert”.
 If you want to convert text to binary, then enter any text into the text box and click on the button “Text to binary”. You will get the equivalent binary value with our binary translator.<br><br>
 </p>
 <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 376px;"><br>
