@@ -72,7 +72,7 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h2 class="w3-text-teal">The Decimal to Binary Converter Structure</h2>
-            <p>If you want to convert decimal to binary number then follow these steps. Firstly, divide the given number by 2. After you are dividing it by 2, get the float for the next iteration. Note the reminder for the binary digit. For example, if you enter the number "46" in the textbox and you will get this answer: 101110.</p><br>
+            <p>If you want to convert decimal to binary number then follow these steps. Firstly, divide the given number by 2. After you are dividing it by 2, get the float for the next iteration. The reminder is the decimal to binary conversion! For example, if you enter the number "46" in the textbox and you will get this answer: 101110.</p><br>
         </div>
         </div>
       <div class="w3-row" style="text-align: justify;">
