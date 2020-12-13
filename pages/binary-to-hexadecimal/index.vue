@@ -21,11 +21,13 @@
         data-full-width-responsive="true">
         </Adsense><br><br>
           <p>To use this converter, enter binary number into this text field and click on the button, "Binary to Hexadecimal", you will get the answer for the equivalent hexadecimal number of the binary number. For example, enter the value "101011111" in the box and you will get an answer of "15F" as the answer.</p>
+          <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 400px;"><br><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button v-on:click="bintohex()" style="width: 33%">Binary to Hexadecimal</button>
-          <button v-on:click="hextobin()" style="width: 33%">Hexadecimal to Binary</button>
-          <button v-on:click="reset()" style="width: 33%">clear all the fields</button><br><br>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="bintohex()">Binary to Hexadecimal</button>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="hextobin()">Hexadecimal to Binary</button>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="reset()">Reset Fields</button><br><br>
           <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ ans }}</p>
+        </div>
         </div><br>
         <div class="w3-third w3-container">
           <h3 style="background-color: silver;">Other Useful Tools</h3>
@@ -79,6 +81,7 @@
             As we all know, binary numbers are only zeros and ones, and no other number can be placed in place of these numbers. Where, exadecimal numbers contain either 0-9 numbers or A-F letters. Apart from that, hexadecimal is base - 16, it possible to convert any given binary numbers to the hex number but the only condition required is you need atleast four base 2 numbers to make any kind of conversion. To convert from binary number to the hex number, you need to the binary into the groups of 4 and process those four numbers to get desired result. You can also use our tool to get the accurate answer.
           </article><br>
           <table style="width:25%">
+            <tbody>
   <tr>
     <th>Hex</th>
     <th>Binary</th>
@@ -167,6 +170,7 @@
     <td>100</td>
     <td>100000000</td>
   </tr>
+  </tbody>
 </table><br>
         </div>
       </div>
