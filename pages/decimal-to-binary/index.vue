@@ -71,8 +71,8 @@
       </div>
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
-          <h2 class="w3-text-teal">The Decimal to Binary Converter Structure</h2>
-            <p>If you want to convert decimal to binary number then follow these steps. Firstly, divide the given number by 2. After you are dividing it by 2, get the float for the next iteration. The reminder is the decimal to binary conversion! For example, if you enter the number "46" in the textbox and you will get this answer: 101110.</p><br>
+          <h2 class="w3-text-teal">The Decimal Conversion Structure</h2>
+            <p>If you want to convert decimal to binary number then follow these steps. Firstly, divide the given number by 2. After you are dividing it by 2, get the float for the next iteration. The reminder is the conversion! For example, if you enter the number "46" in the textbox and you will get this answer: 101110.</p><br>
         </div>
         </div>
       <div class="w3-row" style="text-align: justify;">
@@ -80,7 +80,7 @@
           <h2 class="w3-text-teal">Conversion of 12 to Binary for Example</h2>
             <p>Converting 12 number to binary is pretty simple. Firstly, divide 12 by 2 and the remainder would be 0 and quotient for 12 will be 6. Again dividing 6 by two will give 0 remainder and 3 quotients. Now, dividing 3 by 2 will give the remainder of 1 and quotient of 1. That's it! The decimal to binary conversion of number 12 will be 1100.</p><br>
          <br>
-        <h2 class="w3-text-teal">Decimal to Binary Table of Conversion</h2>
+        <h2 class="w3-text-teal">Decimal Conversion</h2>
         <table style="width:25%">
           <tbody>
 <tr>
