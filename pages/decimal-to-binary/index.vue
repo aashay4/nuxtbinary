@@ -189,11 +189,11 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Decimal to Binary Online Converter For Free - B2t',
+  title: 'Decimal to Binary Calculator (Convert Numbers to Binary)',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Decimal to binary calculator.' }
+      { hid: 'description', name: 'description', content: 'Decimal to binary converter helps you to convert decimal to binary easily. Enter decimal numbers and get answers easily.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/decimal-to-binary/'}
