@@ -96,6 +96,7 @@
             </p><br>
             <h2 class="w3-text-teal">Binary to Decimal Conversion Table</h2>
             <table style="width:25%">
+              <tbody>
     <tr>
       <th>Binary</th>
       <th>Decimal</th>
@@ -184,6 +185,7 @@
       <td>10100</td>
       <td>20</td>
     </tr>
+  </tbody>
   </table><br>
         </div>
           </div>
@@ -200,7 +202,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Binary to Decimal converter | Zeros and ones to numbers translator',
+  title: 'Binary to Decimal converter (Convert Binary to Decimal)',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
