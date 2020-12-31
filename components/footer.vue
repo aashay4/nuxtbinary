@@ -2,7 +2,7 @@
   <div>
       <footer id="myFooter">
         <div class="w3-container w3-theme-l2 w3-padding-32">
-          <h4>© 2020</h4>
+          <h4>© 2021</h4>
         </div>
 
         <div class="w3-container w3-theme-l1">
