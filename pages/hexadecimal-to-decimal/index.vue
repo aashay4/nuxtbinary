@@ -20,12 +20,15 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          
-          <p>Use our tool to convert hex to decimal numbers. The hexadecimal numbers include 0-9 in numbers and A-F in the letter. Enter any character containing either or these two or both and click on the conversion button to find out the correct answer. Just for example, enter a hexadecimal number "8888" in the text box, hit on the "hexadecimal to decimal" conversion button and get the correct answer of the given number. You will receive a decimal number "34952" in the conversion box.</p>
+          <p>Convert hexadecimal to decimal easily with our tool. Enter any hexadecimal number in the box, click on the button and get the decimal conversion with ease. For example, enter a hexadecimal number "24" in the box, click on the "Hexadecimal to decimal" button and you will get the answer "36".</p><br>
+          <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 500px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button v-on:click="hextodec()" style="width: 49%">Hexadecimal to Decimal</button>
-          <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="hextodec(); hextobin();" style="width: 49%">Hexadecimal to Decimal</button>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
           <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ ans }}</p>
+          <h3><b>({{ text_value }}) to binary</b></h3>
+          <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll"><b>Conversion:</b> {{ ansbin }}</p>
+        </div>
         </div><br>
         <div class="w3-third w3-container">
           <h3 style="background-color: silver;">Other Useful Tools</h3>
@@ -71,7 +74,13 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">How to convert hexadecimal to decimal?</h1>
           <p>The conversion of any number into a hex number is really simple. The regular hex number is the sum of digits multiplied with the power of 16. For example, if you are given the number "AE88" then convert the character "A" & "E" into their equivalent decimal value. After converting, you will get an answer of "44680".</p>
+          <h2 class="w3-text-teal">About Hex & Decimal Numbers</h2>
+          <p>Hexadecimal numbers are the base-16 numbers. It includes o, 1, 2, 3, 4, 5, 6, 7, 8, 9, and A to F letters. It groups the binary numbers which are built with zeros and ones in sets of four different digits. Hexadecimal is used in MAC address, computer programming, and many other modern microprocessors. While decimal numbers contain just 0 to 9. This is also one of the most important numbering systems and is used by a lot of modern microprocessors.</p>
+          <h2 class="w3-text-teal">Importance of Hexadecimal to Decimal Conversion</h2>
+          <p>Hexadecimal is useful for writing large binary & decimal numbers in just a few digits. As binary contains just zeros & ones and decimal numbers contain 0 to 9 numbers, it becomes difficult to read large numbers for humans. For that reason, it is important to convert hexadecimal to decimal to hexadecimal for a better understanding of this system.</p>
+          <h2 class="w3-text-teal">Hexadecimal to decimal Conversion Table</h2>
           <table style="width:25%">
+            <tbody>
   <tr>
     <th>Hex</th>
     <th>Decimal</th>
@@ -204,7 +213,9 @@
     <td>25</td>
     <td>37</td>
   </tr>
-</table><br>
+</tbody>
+</table>
+<br>
       </div>
       </div>
       <footer-app></footer-app>
@@ -237,14 +248,16 @@ export default {
   data () {
     return {
       text_value: null,
-            ans: ""
+            ans: "",
+            ansbin: ''
     }
   },
   methods: {
-    dectohex() {
-    var x = new BigNumber(this.text_value, 10)
-    var dectobin = x.toString(16).toUpperCase ();
-    this.ans = dectobin;
+    hextobin() {
+      var hex = this.text_value;
+      var x = new BigNumber(hex, 16);
+      var dect = x.toString(2);
+      this.ansbin = dect;
             },
     hextodec() {
     var x = new BigNumber(this.text_value, 16)
@@ -267,5 +280,8 @@ export default {
    padding: 10%;
    margin-left: 30%;
 
+}
+table, th, td {
+  border: 1px solid black;
 }
 </style>

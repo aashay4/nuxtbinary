@@ -42,7 +42,7 @@
         </router-link>
             <router-link to="/binary-to-hexadecimal/">
             <li>Binary to Hexadecimal</li></router-link>
-            <router-link to="/decimal-to-hexadecimal/">
+            <router-link to="/hexadecimal-to-decimal/">
             <li>Hexadecimal to Decimal</li></router-link>
             <router-link to="/decimal-to-octal/">
             <li>Decimal to Octal</li></router-link>
