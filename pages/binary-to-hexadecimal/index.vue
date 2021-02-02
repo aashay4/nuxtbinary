@@ -20,7 +20,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>To use this converter, enter binary number into this text field and click on the button, "Binary to Hexadecimal", you will get the answer for the equivalent hexadecimal number of the binary number. For example, enter the value "101011111" in the box and you will get an answer of "15F" as the answer.</p>
+          <p>To use this binary to hex converter, enter the binary number into this text field and click on the button, "Binary to Hexadecimal", you will get the answer for the equivalent hexadecimal number of the binary number. For example, enter the value "101011111" in the box and you will get an answer of "15F" as the answer.</p>
           <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 400px;"><br><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="bintohex()">Binary to Hexadecimal</button>
@@ -73,12 +73,12 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Hexadecimal Numbers</h1>
-          <p>The hexadecimal is a base-16 numbering system. The hexadecimal numbers are nothing but 0-9 and then use A to F. The conversion of hexadecimal number to the binary number is simple. You can either use our tool or perform the conversion operation by your self.</p>
-          <p>The hexadecimal numbers are the modern way to show binary numbers to the computer systems. When showing the content from computer storage, one hexadecimal number can show the representation of four various binary numbers. Two hexadecimal numbers can represent eight binary digits and so on.</p>
+          <p>The hexadecimal is a base-16 numbering system. The hexadecimal numbers are nothing but 0-9 and then use A to F. The conversion of binary to hex numbers is simple. You can either use our tool or perform the conversion operation by yourself.</p><br>
+          <p>The hexadecimal numbers are the modern way to show binary numbers to computer systems. When showing the content from computer storage, one hexadecimal number can show the representation of four various binary numbers. Two hexadecimal numbers can represent eight binary digits and so on.</p><br>
           <p>You can have a look at different values of hex numbers along with zeros and one in the table below!</p>
           <h2 class="w3-text-teal">How to convert binary to hexadecimal?</h2>
           <article>
-            As we all know, binary numbers are only zeros and ones, and no other number can be placed in place of these numbers. Where, exadecimal numbers contain either 0-9 numbers or A-F letters. Apart from that, hexadecimal is base - 16, it possible to convert any given binary numbers to the hex number but the only condition required is you need atleast four base 2 numbers to make any kind of conversion. To convert from binary number to the hex number, you need to the binary into the groups of 4 and process those four numbers to get desired result. You can also use our tool to get the accurate answer.
+            As we all know, binary numbers are only zeros and ones, and no other number can be placed in the place of these numbers. Where hexadecimal numbers contain either 0-9 numbers or A-F letters. Apart from that, hexadecimal is base - 16, it possible to convert binary to hex number but the only condition required is you need at least four base-2 numbers to make any kind of conversion. To convert from binary to hexadecimal, you need to the binary into the groups of 4 and process those four numbers to get desired the result. You can also use our tool to get an accurate answer.
           </article><br>
           <table style="width:25%">
             <tbody>
@@ -187,11 +187,11 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Binary to Hexadecimal Online Converter | Convert to Hex Number',
+  title: 'Binary to Hexadecimal Converter | Convert binary to hex',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Binary to Hexadecimal converter. The simplest online translator of hexadecimal to binary conversions. Visit here and get answers!' }
+      { hid: 'description', name: 'description', content: 'Binary to hex converter. The simplest online translator of binary to hexadecimal conversions. Visit here and get answers!' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/binary-to-hexadecimal/'}
@@ -211,7 +211,7 @@ export default {
     bintohex() {
       var bin = this.text_value;
       var m = new  BigNumber(bin, 2)
-      var binn = m.toString(16);
+      var binn = m.toString(16).toUpperCase();
       this.ans = binn;
             },
             hextobin() {
