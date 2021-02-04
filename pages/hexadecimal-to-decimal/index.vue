@@ -231,11 +231,11 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Hexadecimal to Decimal Converter | Hex to base-10 Translator Online',
+  title: 'Hexadecimal to Decimal Converter | Hex to Decimal online',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Best decimal to hexadecimal converter. Get the answers about the conversions and learn how to convert decimal number to a hexadecimal.' }
+      { hid: 'description', name: 'description', content: 'Get an answer from hexadecimal to decimal converter. Read the table and find out hex to decimal conversion.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/hexadecimal-to-decimal/'}
