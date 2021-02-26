@@ -50,6 +50,9 @@ If you want to convert text to binary, then enter any text into the text box and
             <router-link to="/ascii-to-binary/">
             <li>ASCII to Binary</li>
           </router-link>
+          <router-link to="/hexadecimal-to-decimal/">
+          <li>Hexadecimal to Decimal</li>
+        </router-link>
           <router-link to="/decimal-to-binary/">
             <li>
               Decimal to Binary
