@@ -1,16 +1,6 @@
 <template>
   <div>
     <div class="w3-main" style="margin-left:250px">
-      <div id="756174484">
-    <script type="text/javascript">
-        try {
-            window._mNHandle.queue.push(function (){
-                window._mNDetails.loadTag("756174484", "160x600", "756174484");
-            });
-        }
-        catch (error) {}
-    </script>
-</div>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Binary To Text Converter (Translator)</h1>
