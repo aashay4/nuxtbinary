@@ -6,7 +6,7 @@
           <h1 class="w3-text-teal">Decimal to Binary Converter</h1>
           <Adsense
         class="adsbygoogle"
-        style="display:inline-block;height:100%;width:100%;"
+        style="display:inline-block;height:728px;width:90px;"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
         data-ad-format="auto"
