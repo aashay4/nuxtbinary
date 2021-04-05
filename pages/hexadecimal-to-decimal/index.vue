@@ -235,7 +235,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'This hexadecimal to decimal converter helps you to convert base-16 numbers to base-10 number with the help of hex to decimal conversion chart.' }
+      { hid: 'description', name: 'description', content: 'This hexadecimal to decimal converter helps you to convert base-16 numbers to base-10 numbers with the help of a hex to decimal conversion chart.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/hexadecimal-to-decimal/'}
