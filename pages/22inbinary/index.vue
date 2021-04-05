@@ -11,6 +11,8 @@
             <div class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; height: 110px; overflow: scroll;"><b>Conversion:</b> {{ ans }}</div><br><br>
           </div>
           <p>The Conversion of 22 in binary is : 10110</p>
+          <h3>Explanation of the conversion:</h3>
+          <p>Here, 22 is a decimal number which includes 0 to 9 and which is a base-10 number while the conversion "10110" is a binary number which includes just zeros and ones.</p>
         </div><br>
         <div class="w3-third w3-container">
           <h3 style="background-color: silver;">Other Useful Tools</h3>
