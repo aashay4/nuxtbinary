@@ -28,8 +28,6 @@
               Decimal to Binary
             </li>
           </router-link>
-            <router-link to="/decimal-to-binary/">
-            <li>Decimal to Binary Converter</li></router-link>
             <router-link to="/decimal-to-hexadecimal/">
             <li>Decimal to Hexadecimal</li></router-link>
             <router-link to="/decimal-to-octal/">
