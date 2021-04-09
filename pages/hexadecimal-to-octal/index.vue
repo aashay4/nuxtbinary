@@ -7,7 +7,7 @@
           <div>
           <Adsense
         class="adsbygoogle infeed"
-        style="display:block; height: 120px;"
+        style="display:block;"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
         data-ad-format="fluid"
