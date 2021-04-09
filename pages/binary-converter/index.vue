@@ -58,7 +58,7 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">How to Use this Binary Converter?</h1>
-            <p>To use this 01100010 01101001 01101110 01100001 01110010 01111001 onverter, just enter the binary numbers in the box above and click on the convert button, you will get the answers for the given number in just a few seconds. The number entered by you will be converted into dec, oct, hex and text values. If the numbers cannot be converted then you will receinve a message for the same.</p>
+            <p>To use this 01100010 01101001 01101110 01100001 01110010 01111001 converter, just enter the binary numbers in the box above and click on the convert button, you will get the answers for the given number in just a few seconds. The number entered by you will be converted into dec, oct, hex, and text values. If the numbers cannot be converted then you will receive a message for the same.</p>
         </div>
       </div>
       <footer-app></footer-app>

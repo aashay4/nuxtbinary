@@ -13,7 +13,7 @@
         data-full-width-responsive="true">
         </Adsense><br><br>
 
-          <p>Looking for octal to Binary conversion in the least amount of time? Enter the octal number below and click on the conversion button to get the conversion of an octal number into the binary number. Enter numbers like 16, 32 or 64 here and find out the equivalent binary values of these numbers. Same way you can enter zeros and ones to find out the octal values of those numbers.</p>
+          <p>Looking for octal to Binary conversion in the least amount of time? Enter the octal number below and click on the conversion button to get the conversion of an octal number into the binary number. Enter numbers like 16, 32, or 64 here and find out the equivalent binary values of these numbers. In the same way, you can enter zeros and ones to find out the octal values of those numbers.</p>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="octtobin()" style="width: 49%">Octal to binary</button>
           <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
@@ -59,9 +59,9 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
             <h1 class="w3-text-teal">Octal Number</h1>
-            <p>Oct numbers have the base 8. It is really easy to convert any number(decimals, binary or hexadecimal) into the oct numbers. Please find the conversion of octs into zeros and ones. You can also use our tool if you are looking for an online conversion tool, it is totally for free.</p>
+            <p>Oct numbers have the base 8. It is easy to convert any number(decimals, binary or hexadecimal) into the oct numbers. Please find the conversion of oct into zeros and ones. You can also use our tool if you are looking for an online conversion tool, it is free.</p>
             <h2 class="w3-text-teal">Octal to Binary Conversion</h2>
-            <p>The octal to binary conversion takes place in four different parts. The first part is obviously separating each octal number. Once you separate the octal numbers, find the equivalent binary numbers for those octal numbers. Do note that if you find any binary number shorter then 3 bits then do add zeros in the particular number. Write down all the binary number together and you will get the equivalent binary number to that octal number. To find the binary of octal, you can use our tool to get the accurate numbers totally for free.</p>
+            <p>The octal to binary conversion takes place in four different parts. The first part is separating each octal number. Once you separate the octal numbers, find the equivalent binary numbers for those octal numbers. Do note, if you find any binary number shorter than 3 bits then do add zeros in the particular number. Write down all the binary numbers together and you will get the equivalent binary number to that octal number. To find the binary of octal, you can use our tool to get the accurate numbers totally for free.</p>
             <p><table style="width:25%">
     <tr>
       <th>Oct</th>

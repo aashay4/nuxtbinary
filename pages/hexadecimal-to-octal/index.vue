@@ -13,8 +13,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-
-          <p>Convert Hex to octal with the help of this tool. Enter any hexadecimal value into the input box, click on the conversion button and get the answer of your desired number. Enter a hex number "16" and click on the button, you will find out the correct answer in the conversion box. The same way, you can also convert an octal number into the hex number with this tool.</p>
+          <p>Convert Hex to octal with the help of this tool. Enter any hexadecimal value into the input box, click on the conversion button and get the answer to your desired number. Enter a hex number "16" and click on the button, you will find out the correct answer in the conversion box. In the same way, you can also convert an octal number into a hex number with this tool.</p>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="hextooct()" style="width: 32%">Hexadecimal to Octal</button>
           <button v-on:click="octtohex()" style="width: 32%">Octal to Hexadecimal</button>

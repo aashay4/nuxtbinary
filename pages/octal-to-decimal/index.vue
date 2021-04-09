@@ -63,11 +63,11 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Octal Numbers</h1>
-            <p>The oct is a short form for the octal numbers. It is the base-8 numbering system which uses digital from 0 to 7. In the octal numbering system each place is the power of eight. The biggest benefit of octal numbers is nothing but it can directly be converted into the binary number in the simplest manner. Even the decimal to octal conversion is also really simple, find the conversion technique below.</p>
+            <p>The oct is a short form for the octal numbers. It is the base-8 numbering system that uses digital from 0 to 7. In the octal numbering system, each place is the power of eight. The biggest benefit of octal numbers is nothing but they can directly be converted into the binary number in the simplest manner. Even the decimal to octal conversion is also really simple, find the conversion technique below.</p>
         </div>
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Octal to decimal conversion</h1>
-              <p>The normal decimal number is nothing but the sum of numbers multiplied by 10 raise to X(Where x is any given decimal number). For example, if you want to convert 37 octal number into the decimal then the calculation would be as shown below,</p>
+              <p>The normal decimal number is nothing but the sum of numbers multiplied by 10 raise to X(Where x is any given decimal number). For example, if you want to convert 37 octal number into decimal then the calculation would be as shown below,</p>
               <p><b>37 = (3*8) + (7*1) = 31</b></p>
                 <p>You can also use our tool to perform a similar conversion.</p>
                 <p>

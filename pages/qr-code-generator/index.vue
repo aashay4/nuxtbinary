@@ -12,7 +12,7 @@
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">QR Code Generator</h1>
-          <p>This a real-time QR code generator and a progressive web application. Enter a website name, address, name or number into the text area. With our tool, as soon as you start typing, a QR code will be shown on the screen. You can download it and create as many QR codes as you want from our tool totally for free.</p>
+          <p>This a real-time QR code generator and a progressive web application. Enter a website name, address, name, or number into the text area. With our tool, as soon as you start typing, a QR code will be shown on the screen. You can download it and create as many QR codes as you want from our tool totally for free.</p>
           <button v-on:click="reset()" style="width: 100%">Clear all the fields</button><br><br>
           <input type="text" v-model="message" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/>
             <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">
@@ -30,7 +30,7 @@
           <h1 class="w3-text-teal">What is a Qr Code?</h1>
             <p>A QR code is nothing but the machine-readable code consisting of several black and white square, mainly used to store different names, URLs and other information. A QR code can store up to 7089 digits or 4296 characters. It can also store special characters as well. As soon as the data size increases, the structure of the QR Code becomes more complex.</p><br>
           <h2 class="w3-text-teal">Advantages</h2>
-          <p>QR codes are beneficial to both customers and business owners and can be used for probably everything. The business owners save money for advertising costs by sharing their website URLs. QR codes also bridge various marketing streams together, QR codes act as the link between the customers and business owner's forms, services and much more. With this strategy, a business owner can generate revenue for the business from the digital platform.</p>
+          <p>QR codes are beneficial to both customers and business owners and can be used for probably everything. The business owners save money for advertising costs by sharing their website URLs. QR codes also bridge various marketing streams together, QR codes act as the link between the customer's and business owner's forms, services, and much more. With this strategy, a business owner can generate revenue for the business from the digital platform.</p>
           <h2 class="w3-text-teal">How to create a QR Code?</h2>
           <p>You can check out above, we have developed a tool to generate QR codes. It is a real-time tool for creating QR codes. You can visit here, create QR codes as many as you want to download them totally for free.</p>
           <h2 class="w3-text-teal">Contact us!</h2>

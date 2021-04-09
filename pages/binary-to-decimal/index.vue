@@ -12,7 +12,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br>
-          <p>You can convert binary to decimal with the help of this tool. Enter zeros and ones into the text box and get decimal digits as an output. For example, enter 101100 binary number into text area and get "101100" answer in the other box. Same way, your inserted values will be updated into the real-time converter and you will get correct answers for the base 8 and base 16 conversions as well. Just enter any value and get started using our tool.</p><br>
+          <p>You can convert binary to decimal with the help of this tool. Enter zeros and ones into the text box and get decimal digits as an output. For example, enter 101100 binary number into the box and get the "101100" answer in the other box. Same way, your inserted values will be updated into the real-time converter and you will get correct answers for the base 8 and base 16 conversions as well. Just enter any value and get started using our tool.</p><br>
           <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 623px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="bintodec(); bintooct(); bintohex();" style="width: 49%">Binary to Decimal</button>
@@ -71,7 +71,7 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
             <h2 class="w3-text-teal">Binary to Decimal Conversion</h2>
-            <p>If you want to convert binary to decimal, the decimal number is nothing but the sum of the given binary digits, (Xn) times the power of 2.<p><br>
+            <p>If you want to convert binary to decimal, the decimal number is nothing but the sum of the given binary digits, (Xn) times the power of 2.</p><br>
               <p>
               decimal number = x0×20 + x1×21 + x2×22 + ...
             </p>

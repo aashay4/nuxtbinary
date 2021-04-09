@@ -20,7 +20,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>Converting decimal to hexadecimal number is not a difficult task anymore. You can use our free tool for conversion. Enter a decimal value into the text box if you want to convert decimal to hex and click on the button to get the correct conversion. For example, enter "8888" and click on the conversion button and you will get "22B8" answer.</p>
+          <p>Converting decimal to hexadecimal numbers is not a difficult task anymore. You can use our free tool for conversion. Enter a decimal value into the text box if you want to convert decimal to hex and click on the button to get the correct conversion. For example, enter "8888" and click on the conversion button and you will get a "22B8" answer.</p>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="dectohex()" style="width: 49%">Decimal to Hexadecimal</button>
           <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
@@ -74,8 +74,8 @@
       </div>
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
-          <h1 class="w3-text-teal">Conversion</h1>
-            <p>The decimal to hex conversion is really simple, you can also take help of our tool to find out the correct answer. First, divide the given decimal number by 16. Get the number quotient. Get the reminder for the further hex digits. Keep on looping these steps until you get quotient to 0.</p>
+          <h1 class="w3-text-teal">How to convert decimal to hexadecimal?</h1>
+            <p>The decimal to hex conversion is simple, you can also take the help of our tool to find out the correct answer. First, divide the given decimal number by 16. Get the number quotient. Get the reminder for the further hex digits. Keep on looping these steps until you get a quotient to 0.</p>
         <br>
       </div>
       </div>

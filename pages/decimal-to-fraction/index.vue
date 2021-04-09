@@ -12,7 +12,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>Easily convert decimal to fraction with this free tool. Just enter numbers and convert it into the fraction quickly.</p><br>
+          <p>Easily convert decimal to fraction with this free tool. Just enter numbers and convert them into the fraction quickly.</p><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="dectofra()" style="width: 49%">Decimal to Fraction</button>
           <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>

@@ -17,7 +17,8 @@
             <code style="background-color: lightgreen;">$ [sudo] npm install [-g] wol --save</code><br><br>
             If you are a windows user then add the following command in the windows command-line interface, make sure you are in the correct directory,<br><br>
             <code style="background-color: lightgreen;">npm i wol –save</code><br><br>
-            To build your own program, you need the mac address of the destination system where you want to send the magic packet, to get the mac just type the following command in the windows terminal,<br><br>
+            To build your program, you need the mac address of the destination system where you want to send the magic packet, to get the mac just type the following command in the windows terminal,
+<br><br>
             <code style="background-color: lightgreen;">Ipconfig /all</code><br><br>
             By typing this command, you will get MAC of the system,
             <b>code</b><br><br>

@@ -12,7 +12,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>To get the conversion of decimal to octal, enter a value below and click on the button. The decimal numbers include all the mathematical numbers where the octal numbers have base - 8 in the numbers. Enter a decimal value "4444" and you will get the answer of "10534". Enter the same number in the box and you will get the equivalent decimal conversion.</p>
+          <p>To get the conversion of decimal to octal, enter a value below and click on the button. The decimal numbers include all the mathematical numbers where the octal numbers have a base - 8 in the numbers. Enter a decimal value "4444" and you will get the answer of "10534". Enter the same number in the box and you will get the equivalent decimal conversion.</p>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="dectooct()" style="width: 49%">Decimal to Octal</button>
           <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
@@ -62,7 +62,7 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal to octal conversion</h1>
-            <p>The repeated division and reminder technique can help you to convert a decimal number into the octal. For example, if you are given a decimal number "8888" which you need to convert into the equivalent octal number. First, divide the number by 8. Divide the remaining Quotient by 8 again and keep on doing this process until you get 0. After the conversion, you will get this answer:21270.</p>
+            <p>The repeated division and reminder technique can help you to convert a decimal number into octal. For example, if you are given a decimal number "8888" which you need to convert into the equivalent octal number. First, divide the number by 8. Divide the remaining Quotient by 8 again and keep on doing this process until you get 0. After the conversion, you will get this answer:21270.</p>
         </div>
       </div>
       <footer-app></footer-app>

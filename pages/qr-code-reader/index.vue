@@ -12,7 +12,7 @@
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">QR Code Reader</h1>
-          <p>Finding a tool to read a QR code? You are in the right place, our tool helps you to read different QR codes very easily. With our QR code reader, you can upload a file and read what is there in the QR code or use the camera to scan QR codes. Our tool is totally free and you can read as many codes as you want.</p>
+          <p>Finding a tool to read a QR code? You are in the right place, our tool helps you to read different QR codes very easily. With our QR code reader, you can upload a file and read what is there in the QR code or use the camera to scan QR codes. Our tool is free and you can read as many codes as you want.</p>
           <button v-on:click="reset()" style="width: 100%">Clear all the fields</button><br><br>
           <p class="error">{{ error }}</p>
           <p>Note:<b>Our API does not browse files in the Chrome for Mobile devices, CAMARA scanning is running for all the devices, to use the featurem click on choose file button.</b></p>
@@ -27,11 +27,11 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">What is the process of our QR Code Reader?</h1>
-            <p>There are two ways you can use our tool for the QR code reading. The first way is by uploading the file which you already have downloaded. You just need to upload it, our tool will scan the QR code automatically and show the results in the box. The second way is by scanning the physical QR with the help of your camera. This is a very popular way of QR code scanning. To use this feature, you need to give permission to our app to access the cameras on your device.</p><br>
+            <p>There are two ways you can use our tool for the QR code reading. The first way is by uploading the file which you already have downloaded. You just need to upload it, our tool will scan the QR code automatically and show the results in the box. The second way is by scanning the physical QR with the help of your camera. This is a very popular way of QR code scanning. To use this feature, you need to permit our app to access the cameras on your device.</p><br>
             <b>What you can scan?</b>
             <p>Whenever you buy a new headphone, charger or any other electronic device, there is already a QR code attached with it. You can scan that QR code with the help of our tool and get to know about the precise date when it is expiring? Apart from that, you can also save address, emails, and websites as this code and whenever you need them you can use this tool and get the desired information.</p>
             <b>Benefits?</b>
-            <p>If you want to keep some texts of data secretly then you can use Qr codes. By generating codes, no one would be able to read what is inside of that code and your data will remain safe. Many big organizations are using QR codes while sending sensitive information over the internet layer. You can also save your important document with these codes. While scanning, you can use our tool as it is totally free, as you can scan as many codes as you want.</p>
+            <p>If you want to keep some texts of data secretly then you can use Qr codes. By generating codes, no one would be able to read what is inside of that code and your data will remain safe. Many big organizations are using QR codes while sending sensitive information over the internet layer. You can also save your important document with these codes. While scanning, you can use our tool as it is free, as you can scan as many codes as you want.</p>
             <p>If you have any suggestion for our tool or finding it difficult to use then do contact us. We would appreciate your feedback.</p>
           </div>
         </div>

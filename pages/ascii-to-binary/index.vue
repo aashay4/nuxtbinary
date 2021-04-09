@@ -19,7 +19,7 @@
           <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll"><b>Conversion:</b> {{ ans }}</p>
           <div class="w3-row" style="text-align: justify;">
               <h1 class="w3-text-teal">ASCII</h1>
-              <article>ASCII is nothing but Americal standard code which is often used for the information exchanging. This is a code that represents 128 characters in the English language where each character is assigned a specific number to it. Modern computer systems use these numbers to represent text and it makes easier to transfer data from one register to the another.</article>
+              <article>ASCII is nothing but the American standard code which is often used for information exchanging. This code represents 128 characters in the English language where each character is assigned a specific number to it. Modern computer systems use these numbers to represent text and it makes it easier to transfer data from one register to another.</article>
           </div>
           </div><br>
         <div class="w3-third w3-container">
@@ -35,6 +35,8 @@
           </router-link>
             <router-link to="/binary-to-hexadecimal/">
             <li>Binary to Hexadecimal</li></router-link>
+            <router-link to="/hexadecimal-to-decimal/">
+            <li>Hexadecimal to decimal</li></router-link>
             <router-link to="/decimal-to-hexadecimal/">
             <li>Decimal to Hexadecimal</li></router-link>
             <router-link to="/decimal-to-octal/">

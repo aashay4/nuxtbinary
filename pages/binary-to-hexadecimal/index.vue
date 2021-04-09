@@ -12,7 +12,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>To use this binary to hex converter, enter the binary number into this text field and click on the button, "Binary to Hexadecimal", you will get the answer for the equivalent hexadecimal number of the binary number. For example, enter the value "101011111" in the box and you will get an answer of "15F" as the answer.</p>
+          <p>To use this binary to hex converter, enter the binary number into this text field and click on the button, "Binary to Hexadecimal", you will get the answer for the equivalent hexadecimal number of the binary number. Enter the value "101011111" in the box and you will get the answer of "15F" as the answer.</p>
           <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 400px;"><br><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="bintohex()">Binary to Hexadecimal</button>
@@ -70,7 +70,7 @@
           <p>You can have a look at different values of hex numbers along with zeros and one in the table below!</p>
           <h2 class="w3-text-teal">How to convert binary to hexadecimal?</h2>
           <article>
-            As we all know, binary numbers are only zeros and ones, and no other number can be placed in the place of these numbers. Where hexadecimal numbers contain either 0-9 numbers or A-F letters. Apart from that, hexadecimal is base - 16, it possible to convert binary to hex number but the only condition required is you need at least four base-2 numbers to make any kind of conversion. To convert from binary to hexadecimal, you need to the binary into the groups of 4 and process those four numbers to get desired the result. You can also use our tool to get an accurate answer.
+            As we all know, binary numbers are only zeros and ones, and no other number can be placed in the place of these numbers. Where hexadecimal numbers contain either 0-9 numbers or A-F letters. Apart from that, hexadecimal is base - 16, it possible to convert binary to hex number but the only condition required is you need at least four base-2 numbers to make any kind of conversion. To convert binary to hexadecimal, you need to the binary into group of 4 and process those four numbers to get desired the result. You can also use our tool to get an accurate answer.
           </article><br>
           <table style="width:25%">
             <tbody>

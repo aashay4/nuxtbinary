@@ -12,7 +12,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>Use this hexadecimal to binary converter to convert any base-16 hex number into the zeros and ones. Enter a hex number value into the box and convert that hex number into the correct binary number with ease. Hex numbers contain 0-9 in numbers and A-z in letters. Just for an example, enter "4444" into text area and click on the convert button, you will get "100010001000100" answer in the conversion box.</p><br>
+          <p>Use this hexadecimal to binary converter to convert any base-16 hex number into the zeros and ones. Enter a hex number value into the box and convert that hex number into the correct binary number with ease. Hex numbers contain 0-9 in numbers and A-z in letters. Just for an example, enter "4444" into the text area and click on the convert button, you will get the "100010001000100" answer in the conversion box.</p><br>
           <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 323px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="hextobin()" style="width: 49%">Hexadecimal to binary</button>
@@ -65,7 +65,7 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">How to Convert Hexadecimal to Binary?</h1>
           <article>
-            Converting hexadecimal to binary numbers is not that difficult task. As a matter of fact, hex numbers are used to showcase the binary numbers in the shortest way. Binary number is the base 2 while hex numbers are the bast - 16. First, get the decimal number equivalent of that hexadecimal number from the table and you are done. You will get the binary number equivalent to the hex number.
+            Converting hexadecimal to binary numbers is not that difficult task. Hex numbers are used to showcase the binary numbers most shortly. Binary number is the base 2 while hex numbers are the bast - 16. First, get the decimal number equivalent of that hexadecimal number from the table and you are done. You will get the binary number equivalent to the hex number.
           </article><br>
         </div>
       </div>

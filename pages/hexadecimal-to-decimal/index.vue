@@ -73,7 +73,7 @@
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">How to convert hexadecimal to decimal?</h1>
-          <p>The conversion of any number into a hex number is really simple. The regular hex number is the sum of digits multiplied with the power of 16. For example, if you are given the number "AE88" then convert the character "A" & "E" into their equivalent decimal value. After converting, you will get an answer of "44680".</p>
+          <p>The conversion of any number into a hex number is simple. The regular hex number is the sum of digits multiplied with the power of 16. For example, if you have the number "AE88" then convert the character "A" & "E" into their equivalent decimal value. After converting, you will get an answer of "44680".</p>
           <h2 class="w3-text-teal">About Hex & Decimal Numbers</h2>
           <p>Hexadecimal numbers are the base-16 numbers. It includes o, 1, 2, 3, 4, 5, 6, 7, 8, 9, and A to F letters. It groups the binary numbers which are built with zeros and ones in sets of four different digits. Hexadecimal is used in MAC address, computer programming, and many other modern microprocessors. While decimal numbers contain just 0 to 9. This is also one of the most important numbering systems and is used by a lot of modern microprocessors.</p>
           <h2 class="w3-text-teal">Importance of Hexadecimal to Decimal Conversion</h2>
