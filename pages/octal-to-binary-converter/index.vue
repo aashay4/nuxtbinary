@@ -201,6 +201,8 @@ export default {
    border: 5px solid gray;
    padding: 10%;
    margin-left: 30%;
-
+}
+table, th, td {
+  border: 1px solid black;
 }
 </style>

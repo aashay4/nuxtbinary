@@ -20,8 +20,7 @@
           data-ad-format="auto"
           data-full-width-responsive="true">
         </Adsense><br>
-          <p>To use the binary to text tool, enter a binary number into the box, click on the binary translator button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the binary to text button, you will get the text string “Convert”.
-If you want to convert text to binary, then enter any text into the text box and click on the button “Text to binary”. You will get the equivalent binary value with our binary translator.<br><br>
+          <p>To use the binary to text tool, enter a binary number into the box, click on the binary translator button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the binary to text button and get the text string “Convert”. For text to binary conversion, enter any text into the text box and click on the button “Text to binary”. You will get the equivalent binary value with our binary translator.<br><br>
 </p>
 <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 376px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
@@ -40,7 +39,7 @@ If you want to convert text to binary, then enter any text into the text box and
         </Adsense>
             <h1 class="w3-text-teal">Binary Translator</h1>
             <div>
-              <p>Want to convert dec, hex or oct to the equivalent binary number? Here is the full binary translator. Please find it below. Enter any binary number in the box and click of the conversion, you will find out the conversion of that binary number into its equivalent hex, dec or octal number in just a second with our binary translator.</p>
+              <p>Want to convert dec, hex, or oct to the equivalent binary number? Here is the full binary translator. Please find it below. Enter any binary number in the box and click on the conversion, you will find out the conversion of that binary number into its equivalent hex, dec, or octal number in just a second with our binary translator.</p>
             <binarytranslator />
           </div>
         </div><br>
@@ -95,7 +94,7 @@ If you want to convert text to binary, then enter any text into the text box and
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Binary</h1>
-            <p>Binary is just a number system that uses only two digits, o and 1 to rectify different queries. This number system one of the most popular systems in modern computer processing, electronics, wireless networking systems, data process over a network layer. A computer system can only understand the binary numbers and for that reason, it has become one of the most popular terms in the digital world. You can use this binary translator for the binary to text conversion.</p>
+            <p>Binary is just a number system that uses only two digits, o and 1 to rectify different queries. This number system one of the most popular systems in modern computer processing, electronics, wireless networking systems, data process over a network layer. A computer system can only understand binary numbers and for that reason, it has become one of the most popular terms in the digital world. You can use this binary translator for the binary to text conversion.</p>
         </div>
       </div>
 
