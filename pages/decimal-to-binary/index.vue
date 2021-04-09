@@ -5,13 +5,13 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal to Binary Converter</h1>
           <Adsense
-        class="adsbygoogle infeed"
-        style="display:block;"
+        class="adsbygoogle"
+        style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
-        data-ad-format="fluid"
+        data-ad-format="auto"
         data-full-width-responsive="true">
-        </Adsense>
+        </Adsense><br><br>
           <p>To use this decimal to binary converter, enter a decimal number up to 19 characters and click on the conversion button. For example, enter a decimal number "<b style="color: blue">24</b>" into the text box and click on the button, you will get the number "11000" in response after decimal to binary conversion.</p><br>
           <dectobinary />
         </div><br>
@@ -211,21 +211,6 @@ export default {
 </script>
 
 <style>
-@media (min-width: 350px) {
-   .infeed {
-     height: 180px;
-   }
- }
-@media (min-width: 500px) {
-   .infeed {
-     height: 130px;
-   }
- }
-@media (min-width: 800px) {
-   .infeed {
-     height: 200px;
-   }
- }
 #box {
   background-color: lightgrey;
    width: 300px;
