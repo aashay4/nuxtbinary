@@ -5,10 +5,11 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Octal to Binary Converter</h1>
           <Adsense
-        class="adsbygoogle adslot_1"
-        style="display:inline-block;"
+        class="adsbygoogle"
+        style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
+        data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
 
@@ -202,7 +203,4 @@ export default {
    margin-left: 30%;
 
 }
-.adslot_1 { width: 320px; height: 100px; }
-@media (min-width:500px) { .adslot_1 { width: 468px; height: 60px; } }
-@media (min-width:800px) { .adslot_1 { width: 728px; height: 90px; } }
 </style>
