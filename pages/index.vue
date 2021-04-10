@@ -110,6 +110,129 @@
           <p>The binary to text code conversion of 01000001 01001110 is AN. As mentioned above, take the first eight characters of the given number. So, the first eight characters of this number are 01000001. The binary to text conversion of this number is "A". Once you have converted this number, convert another number. The second set for conversion would be 01001110. Again, this is the same number and conversion would be "N". So, the final binary to text conversion of "01000001 01001110" would be "AN".</p>
         </div>
       </div>
+      <div class="w3-row w3-container" style="text-align: justify;">
+        <h2 class="w3-text-teal">
+          Binary Translator Table
+        </h2>
+        <table style="width:25%">
+          <tbody>
+<tr>
+  <th>Binary</th>
+  <th>Base-8</th>
+  <th>Base-10</th>
+  <th>Base-16</th>
+</tr>
+<tr>
+  <td>00000000</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+</tr>
+<tr>
+  <td>00000010</td>
+  <td>2</td>
+  <td>2</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>00000011</td>
+  <td>3</td>
+  <td>3</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>00000100</td>
+  <td>4</td>
+  <td>4</td>
+  <td>4</td>
+</tr>
+<tr>
+  <td>00000101</td>
+  <td>5</td>
+  <td>5</td>
+  <td>5</td>
+</tr>
+<tr>
+  <td>00000110</td>
+  <td>6</td>
+  <td>6</td>
+  <td>6</td>
+</tr>
+<tr>
+  <td>00000111</td>
+  <td>7</td>
+  <td>7</td>
+  <td>7</td>
+</tr>
+<tr>
+  <td>00001000</td>
+  <td>8</td>
+  <td>8</td>
+  <td>8</td>
+</tr>
+<tr>
+  <td>01000001</td>
+  <td>101</td>
+  <td>65</td>
+  <td>41</td>
+</tr>
+<tr>
+  <td>01000001</td>
+  <td>101</td>
+  <td>65</td>
+  <td>41</td>
+</tr>
+<tr>
+  <td>01000010</td>
+  <td>102</td>
+  <td>66</td>
+  <td>42</td>
+</tr>
+<tr>
+  <td>01000011</td>
+  <td>103</td>
+  <td>67</td>
+  <td>43</td>
+</tr>
+<tr>
+  <td>01000100</td>
+  <td>104</td>
+  <td>68</td>
+  <td>44</td>
+</tr>
+<tr>
+  <td>01000101</td>
+  <td>105</td>
+  <td>69</td>
+  <td>45</td>
+</tr>
+<tr>
+  <td>01000110</td>
+  <td>106</td>
+  <td>70</td>
+  <td>46</td>
+</tr>
+<tr>
+  <td>01000111</td>
+  <td>107</td>
+  <td>71</td>
+  <td>47</td>
+</tr>
+<tr>
+  <td>01001000</td>
+  <td>110</td>
+  <td>72</td>
+  <td>48</td>
+</tr>
+<tr>
+  <td>01001001</td>
+  <td>111</td>
+  <td>73</td>
+  <td>49</td>
+</tr>
+</tbody>
+</table><br>
+      </div>
       <footer-app></footer-app>
   </div>
 </div>
