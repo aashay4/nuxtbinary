@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="w3-main" style="margin-left:250px"><br>
+    <div class="w3-main" style="margin-left:250px">
       <Adsense
-      class="adsbygoogle"
+      class="adsbygoogle infeed"
       style="display:block"
       data-ad-client="ca-pub-6829148792481216"
       data-ad-slot="1665700659"
       data-ad-format="auto"
       data-full-width-responsive="true">
-      </Adsense>
+    </Adsense><br>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Binary To Text Converter (Translator)</h1><br>
           <Adsense
-          class="adsbygoogle"
+          class="adsbygoogle infeed"
           style="display:block"
           data-ad-client="ca-pub-6829148792481216"
           data-ad-slot="1416243045"
@@ -30,7 +30,7 @@
           <div class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; height: 110px; overflow: scroll;"><b>Conversion:</b> {{ ans }}</div><br><br>
           </div>
           <Adsense
-        class="adsbygoogle"
+        class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
@@ -324,6 +324,21 @@ export default {
 </script>
 
 <style>
+@media (min-width: 350px) {
+    .infeed {
+      height: 180px;
+    }
+  }
+ @media (min-width: 500px) {
+    .infeed {
+      height: 130px;
+    }
+  }
+ @media (min-width: 800px) {
+    .infeed {
+      height: 200px;
+    }
+  }
 table, th, td {
   border: 1px solid black;
 }
