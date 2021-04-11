@@ -10,6 +10,7 @@
     data-ad-client="ca-pub-6829148792481216"
     data-ad-slot="1416243045"
     data-ad-format="auto"
+    v-show="elementVisible"
     data-full-width-responsive="true">
     </Adsense><br><br>
           <p>Enter an ASCII value or a text value into the text box and convert it into the equivalent binary number. For example, enter "Binary" in the text box or any other special character like ";" and get the text to binary conversion with our tool.</p>
@@ -101,11 +102,15 @@ export default {
   },
   data () {
     return {
+            elementVisible: false,
       text_value: null,
             ans: "",
             aaa: null,
     }
   },
+  created() {
+            setTimeout(() => this.elementVisible = true, 10000)
+        },
   methods: {
     texttobinary() {
 
