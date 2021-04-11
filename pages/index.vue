@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w3-main" style="margin-left:250px">
+    <div class="w3-main" style="margin-left:250px"><br>
       <Adsense
       class="adsbygoogle infeed"
       style="display:block"
@@ -8,7 +8,7 @@
       data-ad-slot="1665700659"
       data-ad-format="auto"
       data-full-width-responsive="true">
-    </Adsense><br>
+    </Adsense>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Binary To Text Converter (Translator)</h1><br>
