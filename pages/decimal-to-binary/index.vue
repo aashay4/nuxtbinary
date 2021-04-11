@@ -1,11 +1,19 @@
 <template>
   <div>
     <div class="w3-main" style="margin-left:250px">
+      <Adsense
+      class="adsbygoogle adslot_1"
+      style="display:block"
+      data-ad-client="ca-pub-6829148792481216"
+      data-ad-slot="1665700659"
+      data-ad-format="auto"
+      data-full-width-responsive="true">
+      </Adsense>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal to Binary Converter</h1>
           <Adsense
-        class="adsbygoogle"
+        class="adsbygoogle adslot_1"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
@@ -211,6 +219,9 @@ export default {
 </script>
 
 <style>
+.adslot_1 { width: 320px; height: 100px; }
+@media (min-width:500px) { .adslot_1 { width: 468px; height: 60px; } }
+@media (min-width:800px) { .adslot_1 { width: 728px; height: 90px; } }
 #box {
   background-color: lightgrey;
    width: 300px;

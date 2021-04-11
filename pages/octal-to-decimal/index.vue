@@ -10,7 +10,6 @@
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
         data-ad-format="auto"
-        v-show="elementVisible"
         data-full-width-responsive="true">
         </Adsense>
 
@@ -190,7 +189,6 @@ export default {
   },
   data () {
     return {
-      elementVisible: false,
       text_value: null,
             total: null,
             ans: "",
