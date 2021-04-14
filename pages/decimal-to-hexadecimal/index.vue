@@ -2,30 +2,32 @@
   <div>
     <div class="w3-main" style="margin-left:250px">
       <Adsense
-    class="adsbygoogle"
+    class="adsbygoogle infeed"
     style="display:block"
     data-ad-client="ca-pub-6829148792481216"
     data-ad-slot="1665700659"
     data-ad-format="auto"
     data-full-width-responsive="true">
 </Adsense>
-      <div class="w3-row w3-padding-64">
+      <div class="w3-row">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal to Hexadecimal</h1>
           <Adsense
-        class="adsbygoogle"
+        class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>Converting decimal to hexadecimal numbers is not a difficult task anymore. You can use our free tool for conversion. Enter a decimal value into the text box if you want to convert decimal to hex and click on the button to get the correct conversion. For example, enter "8888" and click on the conversion button and you will get a "22B8" answer.</p>
+          <p>Converting decimal to hexadecimal numbers is not a difficult task anymore. You can use our free tool for conversion. Enter a decimal value into the text box if you want to convert decimal to hex and click on the button to get the correct conversion. For example, enter "8888" and click on the conversion button and you will get a "22B8" answer.</p><br>
+            <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 376px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button v-on:click="dectohex()" style="width: 49%">Decimal to Hexadecimal</button>
-          <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
+          <button v-on:click="dectohex()" class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" style="width: 49%">Decimal to Hexadecimal</button>
+          <button v-on:click="reset()" class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" style="width: 49%">clear all the fields</button><br><br>
           <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ ans }}</p>
-        </div><br>
+        </div>
+        </div>
         <div class="w3-third w3-container">
           <h3 style="background-color: silver;">Other Useful Tools</h3>
           <ul>
@@ -132,6 +134,21 @@ export default {
 </script>
 
 <style>
+@media (min-width: 350px) {
+    .infeed {
+      height: 180px;
+    }
+  }
+ @media (min-width: 500px) {
+    .infeed {
+      height: 130px;
+    }
+  }
+ @media (min-width: 800px) {
+    .infeed {
+      height: 200px;
+    }
+  }
 #box {
   background-color: lightgrey;
    width: 300px;

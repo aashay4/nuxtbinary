@@ -5,7 +5,7 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Octal to Binary Converter</h1>
           <Adsense
-        class="adsbygoogle adslot_1"
+        class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
@@ -195,10 +195,21 @@ export default {
 </script>
 
 <style scoped>
-.adslot_1 { display:inline-block; width: 320px; height: 50px; }
-@media (max-width: 400px) { .adslot_1 { display: none; } }
-@media (min-width:500px) { .adslot_1 { width: 468px; height: 60px; } }
-@media (min-width:800px) { .adslot_1 { width: 728px; height: 90px; } }
+@media (min-width: 350px) {
+    .infeed {
+      height: 180px;
+    }
+  }
+ @media (min-width: 500px) {
+    .infeed {
+      height: 130px;
+    }
+  }
+ @media (min-width: 800px) {
+    .infeed {
+      height: 200px;
+    }
+  }
 #box {
   background-color: lightgrey;
    width: 300px;

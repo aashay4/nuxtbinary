@@ -2,7 +2,7 @@
   <div>
     <div class="w3-main" style="margin-left:250px">
       <Adsense
-    class="adsbygoogle"
+    class="adsbygoogle infeed"
     style="display:block"
     data-ad-client="ca-pub-6829148792481216"
     data-ad-slot="1665700659"
@@ -108,6 +108,21 @@ export default {
 </script>
 
 <style scoped>
+@media (min-width: 350px) {
+    .infeed {
+      height: 180px;
+    }
+  }
+ @media (min-width: 500px) {
+    .infeed {
+      height: 130px;
+    }
+  }
+ @media (min-width: 800px) {
+    .infeed {
+      height: 200px;
+    }
+  }
 .error {
   font-weight: bold;
   color: red;

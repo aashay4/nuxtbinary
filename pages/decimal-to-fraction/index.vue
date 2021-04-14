@@ -5,7 +5,7 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal to Fraction Calculator</h1>
           <Adsense
-        class="adsbygoogle"
+        class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
@@ -149,6 +149,21 @@ var numerator = fff * denominator;
 </script>
 
 <style scoped>
+@media (min-width: 350px) {
+    .infeed {
+      height: 180px;
+    }
+  }
+ @media (min-width: 500px) {
+    .infeed {
+      height: 130px;
+    }
+  }
+ @media (min-width: 800px) {
+    .infeed {
+      height: 200px;
+    }
+  }
 #box {
   background-color: lightgrey;
    width: 300px;
