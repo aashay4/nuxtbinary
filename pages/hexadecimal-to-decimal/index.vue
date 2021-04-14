@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w3-main" style="margin-left:250px"><br>
+    <div class="w3-main" style="margin-left:250px">
       <Adsense
       class="adsbygoogle infeed"
       style="display:block"

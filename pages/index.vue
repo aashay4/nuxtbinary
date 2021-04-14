@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w3-main" style="margin-left:250px"><br>
+    <div class="w3-main" style="margin-left:250px">
       <Adsense
       class="adsbygoogle infeed"
       style="display:block"
@@ -11,7 +11,7 @@
     </Adsense>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
-          <h1 class="w3-text-teal">Binary To Text Converter (Translator)</h1><br>
+          <h1 class="w3-text-teal">Binary To Text Converter (Translator)</h1>
           <Adsense
           class="adsbygoogle infeed"
           style="display:block"
@@ -19,8 +19,8 @@
           data-ad-slot="1416243045"
           data-ad-format="auto"
           data-full-width-responsive="true">
-        </Adsense><br>
-          <p>To use the binary to text tool, enter a binary number into the box, click on the binary translator button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the binary to text button and get the text string “Convert”. For text to binary conversion, enter any text into the text box and click on the button “Text to binary”. You will get the equivalent binary value with our binary translator.<br><br>
+        </Adsense><br><br>
+          <p>To use the binary to text tool, enter a binary number into the box, click on the binary translator button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the binary to text button and get the text string “Convert”. For text to binary conversion, enter any text into the text box and click on the button “Text to binary”. You will get the equivalent binary value with our binary translator.</p><br>
 </p>
 <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 376px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
