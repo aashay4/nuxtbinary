@@ -18,15 +18,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon1.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' },
       { rel: 'stylesheet', href: 'https://www.w3schools.com/w3css/4/w3.css' },
-      { rel: 'stylesheet', href: 'https://www.w3schools.com/lib/w3-theme-black.css' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat' }
-    ],
-    script: [
-      { src: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js' },
-      { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' }
+      { rel: 'stylesheet', href: 'https://www.w3schools.com/lib/w3-theme-black.css' }
     ]
   },
   /*
