@@ -8,7 +8,7 @@
 <p style="text-align: justify;">Aasshey Triveddi is the creator of BinarytoText and CEO of Lantech Infocom. Because of his enthusiasm towards learning new technologies, he has worked on
 modern technologies like Vue.js, D3.js, Socket.IO, and Node.js. Being the CEO, aasshey takes care of business development activities and explores new technologies to get the
 best possible results for the clients.</p><br>
-<i class="fa fa-envelope" style="width:30px"> </i> <b><a href="mailto:aasshey@lantechinfocom.com">aasshey@lantechinfocom.com</a></b><br>
+<i class="fa fa-envelope" style="width:30px"> </i> <b><a href="mailto:aasshey@lantechinfocom.com">aasshey@lantechinfocom.com</a></b><br><hr>
 <i class="fa fa-skype" style="width:30px"> </i> <b><a href="skypeto:live:aasshey.triveddi1">live:aasshey.triveddi1</a></b><br>
 </div>
         </div>
