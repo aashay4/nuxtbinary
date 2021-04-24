@@ -22,13 +22,7 @@
         </Adsense><br><br>
           <p>To use the binary to text tool, enter a binary number into the box, click on the binary translator button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the binary to text button and get the text string “Convert”. For text to binary conversion, enter any text into the text box and click on the button “Text to binary”. You will get the equivalent binary value with our binary translator.<br><br>
 </p>
-<div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 376px;"><br>
-          <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button v-on:click="binarytotext()" class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" style="display: inline-block">Binary to Text</button>
-          <button v-on:click="texttobinary()" class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" style="display: inline-block">Text to Binary</button>
-          <button v-on:click="reset()" class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" style="display: inline-block">Reset</button><br><br>
-          <div class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; height: 110px; overflow: scroll;"><b>Conversion:</b> {{ ans }}</div><br><br>
-          </div>
+<binarytext />
           <Adsense
         class="adsbygoogle infeed"
         style="display:block"
@@ -239,6 +233,7 @@
 </template>
 
 <script>
+import binarytext from '../components/binarytext.vue';
 import footer from '../components/footer.vue';
 import binarytranslator from '../components/binarytranslator.vue';
 
@@ -259,7 +254,8 @@ export default {
 },
     components:{
     'footer-app': footer,
-    'binarytranslator': binarytranslator
+    'binarytranslator': binarytranslator,
+    'binarytext': binarytext
   },
   data () {
     return {
