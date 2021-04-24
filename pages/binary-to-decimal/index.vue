@@ -200,8 +200,8 @@ export default {
       elementVisible: false
     }
   },
-  created() {
-            setTimeout(() => { this.elementVisible = true }, 2000)
+  mounted: function () {
+            setTimeout(() => { this.elementVisible = true }, 500)
         }
 }
 </script>
