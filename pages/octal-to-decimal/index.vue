@@ -5,6 +5,7 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Octal to Decimal</h1>
           <Adsense
+                    v-if="elementVisible === true"
         class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
@@ -189,6 +190,7 @@ export default {
   },
   data () {
     return {
+            elementVisible: false,
       text_value: null,
             total: null,
             ans: "",
@@ -196,8 +198,8 @@ export default {
             text_val: null
     }
   },
-  created() {
-            setTimeout(() => this.elementVisible = true, 10000)
+  mounted: function () {
+            setTimeout(() => { this.elementVisible = true }, 5000)
         },
   methods: {
     dectooct() {

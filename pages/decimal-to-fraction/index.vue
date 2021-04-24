@@ -5,6 +5,7 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal to Fraction Calculator</h1>
           <Adsense
+          v-if="elementVisible === true"
         class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
@@ -102,6 +103,7 @@ export default {
   },
   data () {
     return {
+                elementVisible: false,
       text_value: null,
             ans: "",
             ans1: "",
@@ -110,6 +112,9 @@ export default {
             aaa: ""
     }
   },
+  mounted: function () {
+            setTimeout(() => { this.elementVisible = true }, 5000)
+        },
   methods: {
     dectofra() {
       var gcd = function(a, b) {

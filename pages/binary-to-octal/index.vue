@@ -5,6 +5,7 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Binary to Octal</h1>
           <Adsense
+              v-if="elementVisible === true"
         class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
@@ -12,7 +13,7 @@
         data-ad-format="auto"
         data-full-width-responsive="true">
         </Adsense><br><br>
-          <p>Want to convert Binary to Octal value? Enter the desired binary number below and click on the button to get the conversion of a binary number into the octal base - 8 number. Enter numbers like 1110, 110100, or 11010 here and find out the equivalent octal values of the numbers. In the same way, you can enter the base - 8 values to find out the zeros and one's values of those numbers.</p>
+          <p>Want to convert Binary to Octal value? Enter the desired binary number below and click on the button to get the conversion of a binary number into the octal base - 8 number. Enter numbers like 1110, 110100, or 11010 here and find out the equivalent octal values of the numbers. In the same way, you can enter the base - 8 values to find out the zeros and one's values of those numbers.</p><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="bintooct()" style="width: 49%">Binary to Octal</button>
           <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
@@ -91,10 +92,14 @@ components:{
   },
   data () {
     return {
+          elementVisible: false,
       text_value: null,
             ans: ""
     }
   },
+  mounted: function () {
+            setTimeout(() => { this.elementVisible = true }, 5000)
+        },
   methods: {
     bintooct() {
       this.aaa = parseInt(this.text_value);

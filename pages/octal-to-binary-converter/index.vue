@@ -5,6 +5,7 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Octal to Binary Converter</h1>
           <Adsense
+                    v-if="elementVisible === true"
         class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
@@ -13,7 +14,7 @@
         data-full-width-responsive="true">
         </Adsense><br><br>
 
-          <p>Looking for octal to Binary conversion in the least amount of time? Enter the octal number below and click on the conversion button to get the conversion of an octal number into the binary number. Enter numbers like 16, 32, or 64 here and find out the equivalent binary values of these numbers. In the same way, you can enter zeros and ones to find out the octal values of those numbers.</p>
+          <p>Looking for octal to Binary conversion in the least amount of time? Enter the octal number below and click on the conversion button to get the conversion of an octal number into the binary number. Enter numbers like 16, 32, or 64 here and find out the equivalent binary values of these numbers. In the same way, you can enter zeros and ones to find out the octal values of those numbers.</p><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="octtobin()" style="width: 49%">Octal to binary</button>
           <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
@@ -176,10 +177,14 @@ export default {
   },
   data () {
     return {
+            elementVisible: false,
       text_value: null,
             ans: ""
     }
   },
+  mounted: function () {
+            setTimeout(() => { this.elementVisible = true }, 5000)
+        },
   methods: {
     octtobin() {
       this.aaa = parseInt(this.text_value);
