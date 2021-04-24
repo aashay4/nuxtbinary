@@ -199,7 +199,7 @@ export default {
     }
   },
   created() {
-            setTimeout(() => this.elementVisible = true, 8000)
+            setTimeout(() => this.elementVisible = true, 100)
         }
 }
 </script>
