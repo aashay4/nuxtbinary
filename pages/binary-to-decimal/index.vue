@@ -7,6 +7,7 @@
           <div id='showMe'>
           <Adsense
         class="adsbygoogle infeed"
+        v-show="elementVisible"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
@@ -201,7 +202,7 @@ export default {
     }
   },
   created() {
-            setTimeout(() => this.elementVisible = true, 100)
+            setTimeout(() => this.elementVisible = true, 2000)
         }
 }
 </script>
