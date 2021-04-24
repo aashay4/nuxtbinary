@@ -6,6 +6,7 @@
           <h1 class="w3-text-teal">Convert Binary to Decimal</h1>
           <Adsense
         class="adsbygoogle infeed"
+        v-show="elementVisible"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
@@ -191,7 +192,15 @@ export default {
   components:{
     'footer-app': footer,
     'binarydecimal': binarydecimal
-  }
+  },
+  data() {
+    return {
+      elementVisible: false
+    }
+  },
+  created() {
+            setTimeout(() => this.elementVisible = true, 8000)
+        }
 }
 </script>
 
