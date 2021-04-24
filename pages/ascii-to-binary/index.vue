@@ -5,6 +5,7 @@
         <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">ASCII to Binary Converter</h1>
       <Adsense
+      v-if="elementVisible === true"
     class="adsbygoogle infeed"
     style="display:block"
     data-ad-client="ca-pub-6829148792481216"
@@ -12,11 +13,13 @@
     data-ad-format="auto"
     data-full-width-responsive="true">
     </Adsense><br><br>
-          <p>Enter an ASCII value or a text value into the text box and convert it into the equivalent binary number. For example, enter "Binary" in the text box or any other special character like ";" and get the text to binary conversion with our tool.</p>
+          <p>Enter an ASCII value or a text value into the text box and convert it into the equivalent binary number. For example, enter "Binary" in the text box or any other special character like ";" and get the text to binary conversion with our tool.</p><br>
+          <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 376px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button v-on:click="texttobinary()" style="width: 49%">ASCII to Binary</button>
-          <button v-on:click="reset()" style="width: 49%">clear all fields</button><br><br>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="texttobinary()" style="width: 49%">ASCII to Binary</button>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="reset()" style="width: 49%">clear all fields</button><br><br>
           <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll"><b>Conversion:</b> {{ ans }}</p>
+        </div>
           <div class="w3-row" style="text-align: justify;">
               <h1 class="w3-text-teal">ASCII</h1>
               <article>ASCII is nothing but the American standard code which is often used for information exchanging. This code represents 128 characters in the English language where each character is assigned a specific number to it. Modern computer systems use these numbers to represent text and it makes it easier to transfer data from one register to another.</article>
@@ -66,11 +69,7 @@
           <h1 class="w3-text-teal">How to Convert ASCII to Binary?</h1>
             <p>If you want to convert the string "Text" into the binary number then follow these simple steps. Take the first character of the text(it would be "T") string and convert it into the ASCII value. And then convert the ASCII value to the equivalent binary number. The binary number for the string "T" will be 01110100. After the conversion, the number you will get should be of 8-bits, if it is less then 8-bits then add zeros and make it an 8-bits long. After the conversion of a number T, do the same conversion with other numbers, E, X, and the last one T. After completion of the operation, you will get this answer(01010100 01100101 01111000 01110100).</p>
         </div>
-        <div class="w3-third w3-container">
-          <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-          <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
         </div>
-      </div>
       </div>
       <footer-app></footer-app>
   </div>
@@ -107,8 +106,8 @@ export default {
             aaa: null,
     }
   },
-  created() {
-            setTimeout(() => this.elementVisible = true, 10000)
+  mounted: function () {
+            setTimeout(() => { this.elementVisible = true }, 5000)
         },
   methods: {
     texttobinary() {
