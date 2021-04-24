@@ -13,16 +13,7 @@
         data-full-width-responsive="true">
         </Adsense><br>
           <p>You can convert binary to decimal with the help of this tool. Enter zeros and ones into the text box and get decimal digits as an output. For example, enter 101100 binary number into the box and get the "101100" answer in the other box. Same way, your inserted values will be updated into the real-time converter and you will get correct answers for the base 8 and base 16 conversions as well. Just enter any value and get started using our tool.</p><br>
-          <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 623px;"><br>
-          <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="bintodec(); bintooct(); bintohex();" style="width: 49%">Binary to Decimal</button>
-          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
-            <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll"><b>Conversion:</b> {{ ans }}</p>
-            <h3><b>{{ text_value }} to base-8</b></h3>
-            <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll"><b>Conversion:</b> {{ ansoct }}</p>
-            <h3><b>{{ text_value }} to base-16</b></h3>
-            <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll"><b>Conversion:</b> {{ anshex }}</p>
-          </div>
+          <binarydecimal />
         </div><br>
         <div class="w3-third w3-container">
           <h3 style="background-color: silver;">Other Useful Tools</h3>
@@ -180,7 +171,7 @@
 
 <script>
 import footer from '~/components/footer.vue';
-import { BigNumber } from 'bignumber.js';
+import binarydecimal from '~/components/binarydecimal.vue';
 export default {
 
   head() {
@@ -199,37 +190,7 @@ export default {
   },
   components:{
     'footer-app': footer,
-  },
-  data () {
-    return {
-      text_value: null,
-            ans: "",
-            anshex: "",
-            ansoct: ""
-    }
-  },
-  methods: {
-    bintodec() {
-      var cc = new BigNumber(this.text_value, 2);
-       this.ans = cc;
-     },
-     bintohex() {
-       var bin = this.text_value;
-       var m = new BigNumber(bin, 2)
-       var binn = m.toString(16);
-       this.anshex = binn;
-             },
-             bintooct() {
-               this.aaa = parseInt(this.text_value);
-               var bintooct = parseInt(this.aaa, 2).toString(8);
-               this.ansoct = bintooct;
-                     },
-   reset() {
-     this.ans = '',
-     this.text_value= null,
-     this.ansoct = '',
-     this.anshex = ''
-   },
+    'binarydecimal': binarydecimal
   }
 }
 </script>
