@@ -24,7 +24,6 @@
 </p>
 <binarytext />
           <Adsense
-          v-if="elementVisible === true"
         class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
