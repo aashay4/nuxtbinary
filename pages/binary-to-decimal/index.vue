@@ -4,10 +4,9 @@
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Convert Binary to Decimal</h1>
-          <div id='showMe'>
+          <div v-show="elementVisible">
           <Adsense
         class="adsbygoogle infeed"
-        v-show="elementVisible"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
