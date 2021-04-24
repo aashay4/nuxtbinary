@@ -4,15 +4,17 @@
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Convert Binary to Decimal</h1>
+          <div id='showMe'>
           <Adsense
         class="adsbygoogle infeed"
-        v-show="elementVisible"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
         data-ad-format="auto"
         data-full-width-responsive="true">
-        </Adsense><br>
+        </Adsense>
+      </div>
+        <br>
           <p>You can convert binary to decimal with the help of this tool. Enter zeros and ones into the text box and get decimal digits as an output. For example, enter 101100 binary number into the box and get the "101100" answer in the other box. Same way, your inserted values will be updated into the real-time converter and you will get correct answers for the base 8 and base 16 conversions as well. Just enter any value and get started using our tool.</p><br>
           <binarydecimal />
         </div><br>
@@ -205,6 +207,14 @@ export default {
 </script>
 
 <style scoped>
+#showMe {
+  animation: cssAnimation 0s 5s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
 @media (min-width: 350px) {
     .infeed {
       height: 180px;
