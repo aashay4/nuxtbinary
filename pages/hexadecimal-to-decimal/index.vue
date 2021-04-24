@@ -2,6 +2,7 @@
   <div>
     <div class="w3-main" style="margin-left:250px">
       <Adsense
+      v-if="elementVisible === true"
       class="adsbygoogle infeed"
       style="display:block"
       data-ad-client="ca-pub-6829148792481216"

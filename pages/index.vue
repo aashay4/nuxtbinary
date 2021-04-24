@@ -259,12 +259,8 @@ export default {
   },
   data() {
     return {
-                  elementVisible: false
     }
-  },
-  mounted: function () {
-            setTimeout(() => { this.elementVisible = true }, 5000)
-        }
+  }
 }
 </script>
 
