@@ -25,7 +25,7 @@
           <p>Convert hexadecimal to decimal easily with our tool. Enter any hexadecimal number in the box, click on the button and get the decimal conversion with ease. For example, enter a hexadecimal number "24" in the box, click on the "Hexadecimal to decimal" button and you will get the answer "36".</p><br>
           <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 500px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="hextodec(); hextobin();" style="width: 49%">Hexadecimal to Decimal</button>
+          <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="hextodec(); hextobin();" style="width: 49%">Convert</button>
           <button class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
           <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ ans }}</p>
           <h3><b>({{ text_value }}) to binary</b></h3>
