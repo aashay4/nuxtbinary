@@ -1,6 +1,6 @@
 <template>
-  <div>
-      <footer id="myFooter">
+  <div style="background: grey">
+      <footer id="myFooter" style="color: white">
         <div class="w3-container w3-theme-l2 w3-padding-32">
           <h4>© 2021</h4>
         </div>
