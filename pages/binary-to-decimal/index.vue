@@ -202,7 +202,7 @@ export default {
     }
   },
   mounted: function () {
-            setTimeout(() => { this.elementVisible = true }, 5000)
+            setTimeout(() => { this.elementVisible = true }, 2500)
         }
 }
 </script>

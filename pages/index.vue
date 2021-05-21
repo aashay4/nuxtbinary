@@ -25,6 +25,7 @@
 <binarytext />
           <Adsense
         class="adsbygoogle infeed"
+        v-if="elementVisible === true"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
         data-ad-slot="1416243045"
@@ -256,7 +257,15 @@ export default {
     'footer-app': footer,
     'binarytranslator': binarytranslator,
     'binarytext': binarytext
-  }
+  },
+  data() {
+    return {
+      elementVisible: false
+    }
+  },
+  mounted: function () {
+            setTimeout(() => { this.elementVisible = true }, 2500)
+        }
 }
 </script>
 
