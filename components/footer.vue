@@ -1,11 +1,11 @@
 <template>
-  <div style="background: grey">
+  <div>
       <footer id="myFooter" style="color: white">
-        <div class="w3-container w3-theme-l2 w3-padding-32">
+        <div style="background: grey" class="w3-container w3-theme-l2 w3-padding-32">
           <h4>© 2021</h4>
         </div>
 
-        <div class="w3-container w3-theme-l1">
+        <div class="w3-container w3-theme-l1" style="background: #333333">
           <p>Powered by <u><b>Lantech Infocom</b></u></p>
         </div>
       </footer>

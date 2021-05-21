@@ -181,11 +181,11 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Binary to Decimal converter (Tool for binary to decimal conversion)',
+  title: 'Binary to Decimal Converter (Bin to Dec)',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Binary to decimal converter. Enter zeros and ones into the translator and get the decimal number with the help of our converter.' }
+      { hid: 'description', name: 'description', content: 'Binary to decimal converter. Enter zeros and ones into the translator and get the decimal number with this bin to dec converter.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://binarytotext.net/binary-to-decimal/'}
