@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w3-main" style="margin-left:250px"><br>
+    <div class="w3-main" style="margin-left:250px">
       <Adsense
       v-if="elementVisible === true"
       class="adsbygoogle infeed"
@@ -12,7 +12,7 @@
     </Adsense>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
-          <h1 class="w3-text-teal">Binary To Text Converter (Translator)</h1><br>
+          <h1 class="w3-text-teal">Binary To Text Converter (Translator)</h1>
           <Adsense
           v-if="elementVisible === true"
           class="adsbygoogle infeed"
@@ -21,8 +21,8 @@
           data-ad-slot="1416243045"
           data-ad-format="auto"
           data-full-width-responsive="true">
-        </Adsense><br><br>
-          <p>To use the binary to text tool, enter a binary number into the box, click on the binary translator button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the binary to text button and get the text string “Convert”. For text to binary conversion, enter any text into the text box and click on the button “Text to binary”. You will get the equivalent binary value with our binary translator.<br><br>
+        </Adsense>
+          <p>To use the binary to text tool, enter a binary number into the box, click on the binary translator button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the binary to text button and get the text string “Convert”. For text to binary conversion, enter any text into the text box and click on the button “Text to binary”. You will get the equivalent binary value with our binary translator.
 </p>
 <binarytext />
           <Adsense
@@ -266,12 +266,20 @@ export default {
     }
   },
   mounted: function () {
-            setTimeout(() => { this.elementVisible = true }, 4000)
+            setTimeout(() => { this.elementVisible = true }, 6000)
         }
 }
 </script>
 
 <style>
+#showMe {
+  animation: cssAnimation 0s 5s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
 @media (min-width: 350px) {
     .infeed {
       height: 180px;
