@@ -2,6 +2,7 @@
   <div>
     <div class="w3-main" style="margin-left:250px"><br>
       <Adsense
+      v-if="elementVisible === true"
       class="adsbygoogle infeed"
       style="display:block"
       data-ad-client="ca-pub-6829148792481216"
@@ -13,6 +14,7 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Binary To Text Converter (Translator)</h1><br>
           <Adsense
+          v-if="elementVisible === true"
           class="adsbygoogle infeed"
           style="display:block"
           data-ad-client="ca-pub-6829148792481216"
@@ -24,6 +26,7 @@
 </p>
 <binarytext />
           <Adsense
+          v-if="elementVisible === true"
         class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
