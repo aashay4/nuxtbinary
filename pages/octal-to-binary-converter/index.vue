@@ -12,7 +12,7 @@
         data-ad-slot="1416243045"
         data-ad-format="auto"
         data-full-width-responsive="true">
-        </Adsense><br><br>
+        </Adsense>
 
           <p>Looking for octal to Binary conversion in the least amount of time? Enter the octal number below and click on the conversion button to get the conversion of an octal number into the binary number. Enter numbers like 16, 32, or 64 here and find out the equivalent binary values of these numbers. In the same way, you can enter zeros and ones to find out the octal values of those numbers.</p><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>

@@ -12,7 +12,7 @@
         data-ad-slot="1416243045"
         data-ad-format="auto"
         data-full-width-responsive="true">
-        </Adsense><br><br>
+        </Adsense>
           <p>To get the conversion of decimal to octal, enter a value below and click on the button. The decimal numbers include all the mathematical numbers where the octal numbers have a base - 8 in the numbers. Enter a decimal value "4444" and you will get the answer of "10534". Enter the same number in the box and you will get the equivalent decimal conversion.</p>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
           <button v-on:click="dectooct()" style="width: 49%">Decimal to Octal</button>

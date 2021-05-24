@@ -20,7 +20,7 @@
         data-ad-slot="1416243045"
         data-ad-format="auto"
         data-full-width-responsive="true">
-        </Adsense><br><br>
+        </Adsense>
           <p>Converting decimal to hexadecimal numbers is not a difficult task anymore. You can use our free tool for conversion. Enter a decimal value into the text box if you want to convert decimal to hex and click on the button to get the correct conversion. For example, enter "8888" and click on the conversion button and you will get a "22B8" answer.</p><br>
             <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 376px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>

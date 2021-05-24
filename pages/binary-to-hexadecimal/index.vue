@@ -12,7 +12,7 @@
         data-ad-slot="1416243045"
         data-ad-format="auto"
         data-full-width-responsive="true">
-        </Adsense><br><br>
+        </Adsense>
           <p>To use this binary to hex converter, enter the binary number into this text field and click on the button, "Binary to Hexadecimal", you will get the answer for the equivalent hexadecimal number of the binary number. Enter the value "101011111" in the box and you will get the answer of "15F" as the answer.</p>
           <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 400px;"><br><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>

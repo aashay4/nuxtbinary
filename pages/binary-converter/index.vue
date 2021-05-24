@@ -12,7 +12,7 @@
         data-ad-slot="1416243045"
         data-ad-format="auto"
         data-full-width-responsive="true">
-        </Adsense><br><br>
+        </Adsense>
           <p>Full Binary converter, Enter a binary value and click on the button. You will get from binary to hex, dec, oct and text values.</p>
             <div>
             <binarytranslator />

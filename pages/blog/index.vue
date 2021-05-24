@@ -4,7 +4,7 @@
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Blog</h1>
-          <input type="text" v-model="search" style="width: 100%;" placeholder="Custom Search" /><br>
+          <input type="text" v-model="search" style="width: 100%;" placeholder="Custom Search" />
         <section>
           <postpreview class="single-blog borderli" v-for="post in filteredPosts"
           :key="post.id"
@@ -12,7 +12,7 @@
           :excert="post.previewText"
           :id="post.id" />
         </section>
-      </div><br>
+      </div>
       <div class="w3-third w3-container">
         <h3 style="background-color: silver;">Other Useful Tools</h3>
         <ul>
@@ -38,7 +38,7 @@
           <li>QR Code Generator</li></router-link>
           <router-link to="/qr-code-reader/">
           <li>QR Code Reader</li></router-link>
-        </ul><br><br>
+        </ul>
         <h3 style="background-color: silver;">Useful Resources</h3>
         <ul>
           <router-link to="/about-creator/">

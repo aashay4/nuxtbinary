@@ -12,7 +12,7 @@
     data-ad-slot="1416243045"
     data-ad-format="auto"
     data-full-width-responsive="true">
-    </Adsense><br><br>
+    </Adsense>
           <p>Enter an ASCII value or a text value into the text box and convert it into the equivalent binary number. For example, enter "Binary" in the text box or any other special character like ";" and get the text to binary conversion with our tool.</p><br>
           <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 376px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>

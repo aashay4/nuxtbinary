@@ -21,10 +21,10 @@
         data-ad-slot="1416243045"
         data-ad-format="auto"
         data-full-width-responsive="true">
-        </Adsense><br><br>
-          <paradecimal /><br>
+        </Adsense>
+          <paradecimal />
           <dectobinary />
-        </div><br>
+        </div>
         <othertoolsdecimaltobinary />
       </div>
       <decimalcontent />

@@ -21,7 +21,7 @@
         data-ad-slot="1416243045"
         data-ad-format="auto"
         data-full-width-responsive="true">
-        </Adsense><br><br>
+        </Adsense>
           <p>Convert hexadecimal to decimal easily with our tool. Enter any hexadecimal number in the box, click on the button and get the decimal conversion with ease. For example, enter a hexadecimal number "24" in the box, click on the "Hexadecimal to decimal" button and you will get the answer "36".</p><br>
           <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 500px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>

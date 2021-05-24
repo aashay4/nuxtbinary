@@ -12,7 +12,7 @@
         data-ad-slot="1416243045"
         data-ad-format="auto"
         data-full-width-responsive="true">
-        </Adsense><br><br>
+        </Adsense>
           <p>Use this hexadecimal to binary converter to convert any base-16 hex number into the zeros and ones. Enter a hex number value into the box and convert that hex number into the correct binary number with ease. Hex numbers contain 0-9 in numbers and A-z in letters. Just for an example, enter "4444" into the text area and click on the convert button, you will get the "100010001000100" answer in the conversion box.</p><br>
           <div class="w3-hover-shadow w3-panel w3-leftbar w3-light-grey" style="height: 323px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
