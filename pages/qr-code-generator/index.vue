@@ -5,15 +5,7 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">QR Code Generator</h1>
           <p>This a real-time QR code generator and a progressive web application. Enter a website name, address, name, or number into the text area. With our tool, as soon as you start typing, a QR code will be shown on the screen. You can download it and create as many QR codes as you want from our tool totally for free.</p>
-          <button v-on:click="reset()" style="width: 100%">Clear all the fields</button><br><br>
-          <input type="text" v-model="message" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/>
-            <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">
-            <qr-code :text="message"/>
           </p>
-        </div>
-        <div class="w3-third w3-container">
-          <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-          <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
         </div>
 
       </div>

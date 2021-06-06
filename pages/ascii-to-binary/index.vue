@@ -5,7 +5,6 @@
         <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">ASCII to Binary Converter</h1>
       <Adsense
-      v-if="elementVisible === true"
     class="adsbygoogle infeed"
     style="display:block"
     data-ad-client="ca-pub-6829148792481216"
@@ -100,15 +99,11 @@ export default {
   },
   data () {
     return {
-            elementVisible: false,
       text_value: null,
             ans: "",
             aaa: null,
     }
   },
-  mounted: function () {
-            setTimeout(() => { this.elementVisible = true }, 5000)
-        },
   methods: {
     texttobinary() {
 

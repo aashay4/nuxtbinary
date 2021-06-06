@@ -4,16 +4,7 @@
     <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Binary numbers</h1>
-          <Adsense
-            v-if="elementVisible === true"
-        class="adsbygoogle infeed"
-        style="display:block"
-        data-ad-client="ca-pub-6829148792481216"
-        data-ad-slot="1416243045"
-        data-ad-format="auto"
-        data-full-width-responsive="true">
-        </Adsense>
-        <p>Binary numbers consist of just zeros and ones are used by a huge number of electronic devices and computer systems. Since binary numbers just include zeros and ones, it is really easy for the computer systems to process them. Along with that, these numbers are also the fastest among the other numbers. For that reason, it is used by a huge number of motherboards and systems. Not only that, but binary numbers are also used in the electronic logic gates like ADN, OR, NAND, NOR, and many others.</p><br><p>Since binary numbers consist of just zeros and ones, it is really difficult for humans to read these numbers. So, computer systems first convert the text values in the binary, and then when it is ready with the response, it converts binary to text and shows it to the users. Along with that, binary numbers occupy a lot of space on the device since the numbers are too long and eventually it ends up occupying a lot of space on the device.</p>
+          <p>Binary numbers consist of just zeros and ones are used by a huge number of electronic devices and computer systems. Since binary numbers just include zeros and ones, it is really easy for the computer systems to process them. Along with that, these numbers are also the fastest among the other numbers. For that reason, it is used by a huge number of motherboards and systems. Not only that, but binary numbers are also used in the electronic logic gates like ADN, OR, NAND, NOR, and many others.</p><br><p>Since binary numbers consist of just zeros and ones, it is really difficult for humans to read these numbers. So, computer systems first convert the text values in the binary, and then when it is ready with the response, it converts binary to text and shows it to the users. Along with that, binary numbers occupy a lot of space on the device since the numbers are too long and eventually it ends up occupying a lot of space on the device.</p>
         <h2 class="w3-text-teal">Numbers to Binary Numbers Conversion</h2>
         <p>Just enter decimal numbers in the box, click on the convert button, and get these numbers converted into the equivalent binary numbers in the least amount of time.</p>
           <binarytranslator />
@@ -171,15 +162,11 @@ export default {
   },
   data () {
     return {
-      elementVisible: false,
       text_value: null,
             ans: '',
             aaa: null,
     }
   },
-  mounted: function () {
-            setTimeout(() => { this.elementVisible = true }, 5000)
-        },
   methods: {
     dectobin() {
       var x = new BigNumber(this.text_value, 10)

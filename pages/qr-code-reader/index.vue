@@ -5,17 +5,8 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">QR Code Reader</h1>
           <p>Finding a tool to read a QR code? You are in the right place, our tool helps you to read different QR codes very easily. With our QR code reader, you can upload a file and read what is there in the QR code or use the camera to scan QR codes. Our tool is free and you can read as many codes as you want.</p>
-          <button v-on:click="reset()" style="width: 100%">Clear all the fields</button><br><br>
-          <p class="error">{{ error }}</p>
-          <p>Note:<b>Our API does not browse files in the Chrome for Mobile devices, CAMARA scanning is running for all the devices, to use the featurem click on choose file button.</b></p>
-          <p class="decode-result w3-border w3-padding-large w3-padding-32 w3-center" style="width: 100%" v-bind:style="styleObject">{{ result }}
-        </p>
+          </div>
         </div>
-        <div class="w3-third w3-container">
-          <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-          <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-        </div>
-      </div>
       <div class="w3-row" style="text-align: justify;">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">What is the process of our QR Code Reader?</h1>

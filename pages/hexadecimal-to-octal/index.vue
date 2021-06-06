@@ -5,7 +5,6 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Hexadecimal to Octal</h1>
           <Adsense
-          v-if="elementVisible === true"
         class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
@@ -180,15 +179,11 @@ export default {
   },
   data () {
     return {
-      elementVisible: false,
       text_value: null,
             ans: "",
             isHidden: true
     }
   },
-  mounted: function () {
-            setTimeout(() => { this.elementVisible = true }, 5000)
-        },
   methods: {
     hextooct() {
       var x = new BigNumber(this.text_value, 16);

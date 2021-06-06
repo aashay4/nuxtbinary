@@ -13,7 +13,6 @@
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal to Hexadecimal</h1>
           <Adsense
-            v-if="elementVisible === true"
         class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
@@ -111,15 +110,11 @@ export default {
   },
   data () {
     return {
-              elementVisible: false,
       text_value: null,
             ans: ""
     }
   },
-  mounted: function () {
-            setTimeout(() => { this.elementVisible = true }, 5000)
-        },
-  methods: {
+    methods: {
     dectohex() {
     var x = new BigNumber(this.text_value, 10)
     var dectobin = x.toString(16).toUpperCase ();
