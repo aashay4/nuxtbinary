@@ -106,6 +106,21 @@ export default {
 </script>
 
 <style>
+@media (min-width: 350px) {
+    .infeed {
+      height: 240px;
+    }
+  }
+ @media (min-width: 500px) {
+    .infeed {
+      height: 200px;
+    }
+  }
+ @media (min-width: 800px) {
+    .infeed {
+      height: 290px;
+    }
+  }
 #box {
   background-color: lightgrey;
    width: 300px;

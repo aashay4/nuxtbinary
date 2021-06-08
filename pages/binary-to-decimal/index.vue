@@ -208,27 +208,20 @@ export default {
 </script>
 
 <style scoped>
-#showMe {
-  animation: cssAnimation 0s 5s forwards;
-  visibility: hidden;
-}
 
-@keyframes cssAnimation {
-  to   { visibility: visible; }
-}
 @media (min-width: 350px) {
     .infeed {
-      height: 180px;
+      height: 240px;
     }
   }
  @media (min-width: 500px) {
     .infeed {
-      height: 130px;
+      height: 200px;
     }
   }
  @media (min-width: 800px) {
     .infeed {
-      height: 200px;
+      height: 290px;
     }
   }
 #box {
