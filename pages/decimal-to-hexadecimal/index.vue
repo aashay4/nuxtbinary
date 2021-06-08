@@ -12,7 +12,7 @@
       <div class="w3-row">
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal to Hexadecimal</h1>
-          <p>Convert dec to hex by adding decimal values in the box:</p>
+          <p>Converting decimal to hexadecimal numbers is not a difficult task anymore. You can use our free tool for conversion. Enter a decimal value into the text box if you want to convert decimal to hex and click on the button to get the correct conversion. For example, enter "8888" and click on the conversion button and you will get a "22B8" answer.</p>
           <Adsense
         class="adsbygoogle infeed"
         style="display:block"
@@ -23,8 +23,8 @@
         </Adsense>
             <div class="w3-panel w3-leftbar w3-light-grey" style="height: 376px;"><br>
           <input type="text" v-model="text_value" style="width: 100%" class="w3-border w3-padding-large w3-padding-32 w3-center" placeholder="Enter a value"/><br><br>
-          <button v-on:click="dectohex()" style="width: 49%">Convert</button>
-          <button v-on:click="reset()" style="width: 49%">clear all the fields</button><br><br>
+          <button v-on:click="dectohex()" class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" style="width: 49%">Decimal to Hexadecimal</button>
+          <button v-on:click="reset()" class="w3-button w3-border w3-teal w3-padding-large w3-hover-gray" style="width: 49%">clear all the fields</button><br><br>
           <p class="w3-border w3-padding-large w3-padding-32 w3-right" style="width: 100%; overflow: scroll">Conversion: {{ ans }}</p>
         </div>
         </div>
@@ -69,7 +69,6 @@
         </div>
       </div>
       <div class="w3-row" style="text-align: justify;">
-                <p class="w3-twothird w3-container">Converting decimal to hexadecimal numbers is not a difficult task anymore. You can use our free tool for conversion. Enter a decimal value into the text box if you want to convert decimal to hex and click on the button to get the correct conversion. For example, enter "8888" and click on the conversion button and you will get a "22B8" answer.</p><br>
         <div class="w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal and Hexadecimal Numbers</h1>
             <p>The decimal numbers have base 10 and they include 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. The hexadecimal numbers have base 16 and they are counted as the modern version of binary numbers. The conversion of these numbers is also easy. Find the process below.</p>
