@@ -9,8 +9,8 @@
     data-ad-format="auto"
     data-full-width-responsive="true">
 </Adsense>
-      <div class="w3-row">
-        <div class="w3-twothird w3-container">
+      <div class="">
+        <div class="w3-row w3-twothird w3-container">
           <h1 class="w3-text-teal">Decimal to Hexadecimal</h1>
           <p>Converting decimal to hexadecimal numbers is not a difficult task anymore. You can use our free tool for conversion. Enter a decimal value into the text box if you want to convert decimal to hex and click on the button to get the correct conversion. For example, enter "8888" and click on the conversion button and you will get a "22B8" answer.</p>
           <Adsense
