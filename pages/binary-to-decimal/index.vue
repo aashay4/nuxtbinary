@@ -6,7 +6,6 @@
           <h1 class="w3-text-teal">Convert Binary to Decimal</h1>
           <div>
           <Adsense
-          v-if="elementVisible === true"
         class="adsbygoogle infeed"
         style="display:block"
         data-ad-client="ca-pub-6829148792481216"
@@ -198,12 +197,8 @@ export default {
   },
   data() {
     return {
-      elementVisible: false
-    }
+      }
   },
-  mounted: function () {
-            setTimeout(() => { this.elementVisible = true }, 4000)
-        }
 }
 </script>
 
