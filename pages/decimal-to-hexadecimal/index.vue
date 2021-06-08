@@ -133,20 +133,20 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @media (min-width: 350px) {
     .infeed {
-      height: 180px;
+      height: 220px;
     }
   }
  @media (min-width: 500px) {
     .infeed {
-      height: 130px;
+      height: 180px;
     }
   }
  @media (min-width: 800px) {
     .infeed {
-      height: 200px;
+      height: 270px;
     }
   }
 #box {
