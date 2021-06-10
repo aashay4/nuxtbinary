@@ -275,12 +275,12 @@ export default {
 }
 @media (min-width: 350px) {
     .infeed {
-      height: 240px;
+      height: 270px;
     }
   }
  @media (min-width: 500px) {
     .infeed {
-      height: 200px;
+      height: 250px;
     }
   }
  @media (min-width: 800px) {
