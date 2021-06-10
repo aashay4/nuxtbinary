@@ -112,12 +112,12 @@ components:{
 <style>
 @media (min-width: 350px) {
     .infeed {
-      height: 240px;
+      height: 290px;
     }
   }
  @media (min-width: 500px) {
     .infeed {
-      height: 200px;
+      height: 290px;
     }
   }
  @media (min-width: 800px) {

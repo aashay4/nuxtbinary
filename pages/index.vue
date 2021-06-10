@@ -20,7 +20,7 @@
           data-ad-format="auto"
           data-full-width-responsive="true">
         </Adsense>
-          <p>To use the binary to text tool, enter a binary number into the box, click on the binary translator button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the binary to text button and get the text string “Convert”. For text to binary conversion, enter any text into the text box and click on the button “Text to binary”. You will get the equivalent binary value with our binary translator.
+          <p>To use this binary to text tool, enter a binary number into the box, click on the binary translator button and get the equivalent text into the output. For example, insert “01000011 01101111 01101110 01110110 01100101 01110010 01110100” into the box and click on the binary to text button and get the text string “Convert”. For text to binary conversion, enter any text into the text box and click on the button “Text to binary”. You will get the equivalent binary value with our binary translator.
 </p>
 <binarytext />
           <Adsense
