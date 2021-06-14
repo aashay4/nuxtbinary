@@ -11,7 +11,7 @@
     </Adsense>
       <div class="w3-row w3-padding-64">
         <div class="w3-twothird w3-container">
-          <h1 class="w3-text-teal">Binary To Text Converter (Translator)</h1>
+          <h1 class="w3-text-teal">Binary To Text Converter (Binary Translator)</h1>
           <Adsense
           class="adsbygoogle infeed"
           style="display:block"
